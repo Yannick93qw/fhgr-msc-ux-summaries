@@ -1,3 +1,3 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+- [Human Computer Interaction](./human_computer_interaction.md)
