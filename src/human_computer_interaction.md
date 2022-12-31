@@ -1,6 +1,7 @@
 # Human Computer Interaction
 Human Computer Interaction (HCI) ist eine Disziplin, welche sich mit dem **entwickeln**, **evaluieren** und der **Implementierung** von interaktiven Systemen befasst. Als Grundlage dabei dient die Beobachtung des Umfelds.
-Daher besteht HCI aus einer Vielzahl von unterschiedlichen Disziplinen:
+Wichtig an dieser Stelle zu erwähnen ist es, dass diese verschiedenen Diszipline sich in einem wiederholenden Entwicklungsprozess (User Centered Design Prozess, etc.) befinden.
+HCI besteht aus einer Vielzahl von unterschiedlichen Disziplinen:
 * Design
 * Psychologie
 * Engineering
@@ -25,6 +26,55 @@ Daher besteht HCI aus einer Vielzahl von unterschiedlichen Disziplinen:
 ### Definition User Experience
 > Reaktion, Emotionen und Wahrnehmungen des Nutzers bei der Interaktion mit dem Produkt **vor**, **während** und **nach** der Nutzung.
 
+### WIMP
+> WIMP steht für Windows, Menus, Icons and Pointers in Bezug auf die Desktop Metapher
 
 
 
+### Desktop Metapher
+Die Desktop Metapher stellt im Gegensatz zur Kommandzeile ein neuer Ansatz zur Interaktion mit dem Computer dar:
+* Direkte visuelle Manipulation von Objekten
+* Sichtbarkeit von Objekten und Aktionen
+* Schnelle, umkehrbare Aktionen
+
+![Desktop Metapher](./images/desktop_metapher.png)
+*XEROX Star 1981*
+
+#### Vorteile im Gegensatz zur Kommandozeile
+* Schnelles Erlernen und Wiedererinnern
+* Fehleranfälligkeit durch Syntax wird vermieden
+* Fördert exploratives Erforschen
+
+#### Nachteile im Gegensatz zur Kommandozeile
+* Teilweise geringere Effizienz
+* Teilweise reduzierte Funktionen
+
+### Definition Natural User Interfaces
+> Umfasst alle Interaktionsformen, welche über WIMP hinausgehen und sich an den sensor motorischen Fähigkeiten des Menschen orientieren. Mit natürlich ist hierbei eine **natürliche Eingabeform** sowie eine **selbsterklärende Bedienung** gemeint. 
+
+### Definition Ubiquitous Computing
+> Unter Ubiquitous Computing wird verstanden, dass der Computer **allgegenwärtig und in unser Umfeld nahezu unsichtbar integriert ist**.
+
+### Gulf of Execution
+> Kluft zwischen den beabsichtigten Handlungen und den möglichen Aktionen.
+
+### Gulf of Evaluation
+> Kluft zwischen den Ausgaben des Systems und der korrekten Interpretation
+
+### Irrtümer (Mistakes)
+> Falsche Handlungen zum Erreichen des Ziels.
+
+### Fehlleistungen (Slips)
+> Richtige Handlung falsch ausgeführt
+
+### Multimodale Interaktion
+> Multimodale Interaktion kombiniert **zwei oder mehr** Input Modi (beispielsweise Touch und Speech) miteinander.
+
+### Input Device State
+> Gibt an, in welchem Zustand die Input Geräte sind. Im Falle eines Button hat dieser beispielsweise die Zustände **gedrückt** sowie **nicht gedrückt**.
+
+### Interaktionsstyle
+> Grundsätzlich kann zwischen **zwei verschiedenen** Interaktionsstilen unterschieden werden. Dies ist zum Einen die Interaktion per Kommando via Kommandozeile und zum Anderen die Interaktion mittels Dialogen (GUIs).
+
+### DMI
+> Unter DMI wird Direkte Manipulation verstanden. Bei einem klassichen GUI wäre dies über Tastatur, Bildschirm und Maus, wobei Input und Output getrennt sind. Bei Smartphones hingegen ist der Input und Output direkt miteinander verbunden und wird via Touch oder Pen ermöglicht. 
