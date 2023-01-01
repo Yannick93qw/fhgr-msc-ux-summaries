@@ -36,4 +36,9 @@ flowchart TB
    goals-->intention_to_act-->sequence_of_action-->execution_of_action-->perceiving_the_state-->interpreting_the_perception-->evaluating_the_interpretations
    evaluating_the_interpretations-->goals
 ```
-  
+ 
+### User Centered Design Process
+```mermaid
+flowchart TB
+    observe[Beobachten und Verstehen] --> specify[Bedürfnisse spezifizieren] --> generate[Ideen entwickeln] --> design[Design] --> prototype[Prototyping] --> evaluate[Evaluation] --> observe
+```

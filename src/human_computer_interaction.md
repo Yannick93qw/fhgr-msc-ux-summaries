@@ -78,3 +78,13 @@ Die Desktop Metapher stellt im Gegensatz zur Kommandzeile ein neuer Ansatz zur I
 
 ### DMI
 > Unter DMI wird Direkte Manipulation verstanden. Bei einem klassichen GUI wäre dies über Tastatur, Bildschirm und Maus, wobei Input und Output getrennt sind. Bei Smartphones hingegen ist der Input und Output direkt miteinander verbunden und wird via Touch oder Pen ermöglicht. 
+
+### User-Centered Design Process
+> Der User-Centered Design Prozess bezweckt Produkte und Dienstleistungen zu entwickeln, welche **reale Bedürfnisse der Nutzer adressieren**.
+
+### Menschenzentriert
+> Menschenzentriert bedeutet, den Menschen **kontinuierlich** in den Prozess miteinzubeziehen.
+
+### User Experience Design
+> User Experience Design bietet einen **systematischen, wissenschaftlich fundierten Ansatz**, mit dem die **Gebrauchstauglichkeit eines Produktes sichergestellt werden kann**.
+
