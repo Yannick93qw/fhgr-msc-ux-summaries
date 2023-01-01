@@ -32,3 +32,11 @@ Diverse Studien zeigen auf, dass wenn UX von Unternehmen gelebt und entsprechend
 ## Warum führ UX zu mehr Return on Investment?
 Laut einer Studie resultiert jeder investierte Dollar in UX in rund 100 Dollar. Dies entspricht einem Return on Investment von 99%.
 
+## Worum geht es bei der Betrachtung des Nutzers?
+Bei der Betrachtung des Nutzers geht es darum, den Nutzer zu **identifizieren und zu verstehen**:
+* Wer sind die **Nutzer** (Demografische Daten, Nutzergruppen, Besonderheiten, technisches Verständnis)
+* Was sind die **Ziele** der Nutzer, was möchte der Nutzer erreichen
+* Was sind die **Bedürfnisse, Erwartungen** und welche **Frustrationen** erwarten den Nutzer
+
+## Was ist das Problem bei Fragebögen?
+Bei Fragebögen muss bereits Wissen über die Domäne vorhanden sein, zudem sind sie aufwändig zu erstellen und können viele unerwünschte Nebeneffekte herbeiführen.

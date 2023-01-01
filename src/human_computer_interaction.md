@@ -88,3 +88,5 @@ Die Desktop Metapher stellt im Gegensatz zur Kommandzeile ein neuer Ansatz zur I
 ### User Experience Design
 > User Experience Design bietet einen **systematischen, wissenschaftlich fundierten Ansatz**, mit dem die **Gebrauchstauglichkeit eines Produktes sichergestellt werden kann**.
 
+### Buxton's Law
+Buxton's Law besagt, dass der Mensch nur eine eingeschränkte kognitive Fähigkeit besitzt (Human Capacity). Der Mensch kann beispielsweise Kunden beraten, wenn er jedoch noch eine komplizierte Software bedienen muss, **welche seine kognitiven Fähigkeiten übersteigt**, funktioniert dies nicht.
