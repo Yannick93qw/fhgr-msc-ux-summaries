@@ -40,3 +40,13 @@ Bei der Betrachtung des Nutzers geht es darum, den Nutzer zu **identifizieren un
 
 ## Was ist das Problem bei Fragebögen?
 Bei Fragebögen muss bereits Wissen über die Domäne vorhanden sein, zudem sind sie aufwändig zu erstellen und können viele unerwünschte Nebeneffekte herbeiführen.
+
+## Was zeichnet eine gute Informationsarchitektur aus?
+Folgende drei Fragen sollten immer beantwortet werden können:
+* Was tut diese Seite/Applikation?
+* Was kann ich tun?
+* Wo bin ich?
+
+## Was ist der Unterschied zwischen Sketches und Prototypes?
+Sketches sind `schnell, preiswert und einfach herzustellen` und `schlagen` einen möglichen Designentwurf vor.
+Prototypen hingegen sind bereits eine `spezifische Darstellung eines möglichen Lösungsvorschlags`.

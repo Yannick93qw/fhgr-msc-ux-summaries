@@ -89,4 +89,13 @@ Die Desktop Metapher stellt im Gegensatz zur Kommandzeile ein neuer Ansatz zur I
 > User Experience Design bietet einen **systematischen, wissenschaftlich fundierten Ansatz**, mit dem die **Gebrauchstauglichkeit eines Produktes sichergestellt werden kann**.
 
 ### Buxton's Law
-Buxton's Law besagt, dass der Mensch nur eine eingeschränkte kognitive Fähigkeit besitzt (Human Capacity). Der Mensch kann beispielsweise Kunden beraten, wenn er jedoch noch eine komplizierte Software bedienen muss, **welche seine kognitiven Fähigkeiten übersteigt**, funktioniert dies nicht.
+> Buxton's Law besagt, dass der Mensch nur eine eingeschränkte kognitive Fähigkeit besitzt (Human Capacity). Der Mensch kann beispielsweise Kunden beraten, wenn er jedoch noch eine komplizierte Software bedienen muss, **welche seine kognitiven Fähigkeiten übersteigt**, funktioniert dies nicht.
+
+### Wireflows
+> Wireflows sind ein Designspezifikationsformat dass `Wireframes` mit einem `Ablaufdiagramm` kombiniert um `Interatkion darzustellen`.
+
+### Wireframes
+> Wireframes sind eine `vereinfachte Darstellung einer Benutzerschnittstelle` und zeigen das `Layout in Form eines Drahtgerüstes` auf.
+
+### Prototyp
+> Ein Prototyp ist ein `funktionsfähiges aber vereinfachtes Produkt` für einen `bestimmten Zweck`. Es kann dabei rein `äusserlich oder technisch` dem Endprodukt entsprechend. 

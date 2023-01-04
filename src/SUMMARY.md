@@ -6,3 +6,6 @@
   - [Forschungsgebiete von HCI](./fields_of_hci.md)
   - [UX Prozess und Lifecycle](./ux_process_and_lifecycle.md)
   - [Nutzerforschung](./user_research.md)
+  - [Systemkomplexität und Projekt Parameter](./system_complexity_project_parameters.md)
+  - [Affinity Diagramme, Personas und Szenarien](./affinity_diagrams_personas_scenarios.md)
+  - [Interaction Design](./interaction_design.md)
