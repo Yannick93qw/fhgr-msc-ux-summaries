@@ -9,3 +9,4 @@
   - [Systemkomplexität und Projekt Parameter](./system_complexity_project_parameters.md)
   - [Affinity Diagramme, Personas und Szenarien](./affinity_diagrams_personas_scenarios.md)
   - [Interaction Design](./interaction_design.md)
+- [Research Design and Qualitative Methods](./research_design_and_qualitative_methods.md)
