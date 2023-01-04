@@ -6,12 +6,9 @@ In dieser Veröffentlichung thematisierte Don Norman die schlechte Nutzbarkeit v
 Don Norman thematisierte seine Anhaltspunkte im Buch "The Design of Everyday Things", bei welchem es darum geht wie Nutzer mit zehn tausenden Objekten im Alltag zurechtkommen.
 Don Norman spricht sich zudem gegen traditionelle lineare Desigprozesse aus und befürwortet die Verwendung von **iterativen Prozessen**.
 
-### User Centered Design Process
-```mermaid
-flowchart TB
-    observe[Beobachten und Verstehen] --> specify[Bedürfnisse spezifizieren] --> generate[Ideen entwickeln] --> design[Design] --> prototype[Prototyping] --> evaluate[Evaluation] --> observe
-```
-*User Centered Design Prozess*
+![User Centered Design process](./images/user_centered_design_process.png)
+
+*User Centered Design Process*
 
 ## Beobachten und Verstehen
 Das Ziel dieses Schrittes ist es, den **Nutzer**, dessen **Bedürfnisse** und den **Problemkontext** zu verstehen.
