@@ -15,3 +15,4 @@
   - [Begriffe definieren](./define_terms.md)
   - [Forschungsfrage und Hypothesen](./research_question_and_hypothesis.md)
   - [Operationalisierung und Skalenbildung](./operationalisation_scales.md)
+  - [Forschungsdesign](./research_design.md)
