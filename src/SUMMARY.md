@@ -19,3 +19,5 @@
   - [Quantitative Inhaltsanalyse](./quantitativ_content_analysis.md)
   - [Leitfaden und Experteninterviews](./expert_reviews.md)
   - [Gruppendiskussion](./group_discussion.md)
+  - [Qualitative Inhaltsanalyse](./qualitative_content_analysis.md)
+  - [Fallstudie](./case_study.md)
