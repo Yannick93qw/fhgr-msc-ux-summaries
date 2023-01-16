@@ -17,3 +17,5 @@
   - [Operationalisierung und Skalenbildung](./operationalisation_scales.md)
   - [Forschungsdesign](./research_design.md)
   - [Quantitative Inhaltsanalyse](./quantitativ_content_analysis.md)
+  - [Leitfaden und Experteninterviews](./expert_reviews.md)
+  - [Gruppendiskussion](./group_discussion.md)
