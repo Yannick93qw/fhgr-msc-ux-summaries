@@ -21,3 +21,5 @@
   - [Gruppendiskussion](./group_discussion.md)
   - [Qualitative Inhaltsanalyse](./qualitative_content_analysis.md)
   - [Fallstudie](./case_study.md)
+- [Data Management](./data_management.md)
+  - [Einführung](./data_management_introduction.md)
