@@ -23,3 +23,4 @@
   - [Fallstudie](./case_study.md)
 - [Data Management](./data_management.md)
   - [Einführung](./data_management_introduction.md)
+  - [Erhebungen und deren Datenrepräsentation](./data_management_data_representation.md)
