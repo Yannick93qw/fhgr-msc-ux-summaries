@@ -26,3 +26,4 @@
   - [Erhebungen und deren Datenrepräsentation](./data_management_data_representation.md)
   - [Dokumentenamangement](./data_management_document_management.md)
   - [Datenanalyse](./data_management_data_analysis.md)
+  - [Data-Mining Grundprinzipien](./data_management_data_mining.md)
