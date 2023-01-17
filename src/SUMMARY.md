@@ -24,3 +24,4 @@
 - [Data Management](./data_management.md)
   - [Einführung](./data_management_introduction.md)
   - [Erhebungen und deren Datenrepräsentation](./data_management_data_representation.md)
+  - [Dokumentenamangement](./data_management_document_management.md)
