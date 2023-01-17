@@ -27,3 +27,4 @@
   - [Dokumentenamangement](./data_management_document_management.md)
   - [Datenanalyse](./data_management_data_analysis.md)
   - [Data-Mining Grundprinzipien](./data_management_data_mining.md)
+  - [Data Warehouse und OLAP](./data_management_data_warehouse_olap.md)
