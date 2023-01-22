@@ -51,3 +51,15 @@ Ihre Berechnung beruht nur auf zwei Werten der Verteilung. Für `Ordinaldaten si
 * Es müssen `keine Parallelformen eines Tests konstruiert werden`
 * Erfasstes Mekmal `muss nicht zeitlich stabil sein`
 
+## Was ist das Problem mit Stichproben?
+Stichproben sind `nicht repräsentativ für die Gesamtbevölkerung`. Sie sind immer mit gewissen Auswahlkriterien etc. verbunden.
+
+## Wann ist eine Stichprobe repräsentativ?
+Sie ist dann repräsentativ, wenn das `Auswahlverfahren keine Elemente der Population in Bezug auf ihre Merkmale bevorzugt hat, d.h. jedes Element hat die gleiche Chancen`.
+
+## Was ist der Designeffekt?
+Die Verzerrung in der Repräsentatitivität `gegenüber einer einfachen Zufallsstichprobe`.
+* Bei Schulklassen sind Designeffekte bis zu 10 möglich, d.h. es braucht eine 10x grössere Stichprobengrösse für eine vergleichbare Repräsentativität
+
+## Wann kann eine Hypothese verworfen oder beibehalten werden?
+Wenn die Irrtumswahrscheinlichkeit \\( \rho < \alpha \\) ist, kann die H0 verworfen werde, ansonsten muss sie beibehalten werden.

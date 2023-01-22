@@ -137,5 +137,24 @@ P_i = \frac{\bar{x}_i}{max(x_i)} * 100
 r_{tt} = \frac{\sigma^2(x) - \sigma^2(\epsilon)}{\sigma^2(x)}
 \\]
 
+## Standardfehler
+\\[
+\sigma_{\bar{x}} = \sqrt{\frac{\sigma^2}{n}}
+\\]
 
+### Ermittlung Populationsvarianz (falls nicht bekannt)
+\\[
+\sigma^2 = \frac{s^2n}{n-1}
+\\]
 
+## Konfidenzintervall
+Standardfehler muss mit dem z-Wert der Grenze multipliziert werden.
+Beispiel 90% Intervall (pro Seite entfallen dann jeweils 5% der Stichprobenmittelwerte):
+
+\\[
+Links = (-z_{90\\%} \sigma\bar{x})
+\\]
+
+\\[
+Rechts = (+z_{90\\%} \sigma\bar{x})
+\\]

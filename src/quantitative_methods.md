@@ -39,6 +39,7 @@
 * Zwischen +2 und -2 vom Mittelwert liegen 95.45% der Gesamtläche
 * Bei einer Normalverteilung sind `Modalwert, Median und arithmetischer Mittelwert identisch`
 * Bei einer Standardnormalverteilung ist der arithemtische Mittelwert 0 und die Standardabweichung 1 
+* Ermöglicht die Berechnung von `Konfidenzintervallen`
 
 ### Z-Wert
 * Mithilfe des Z-Wertes kann bestummen werden, wo in der `Verteilung die Werte liegen`
@@ -85,10 +86,63 @@ Sollte bei Skalenitems nicht über 8 liegen
 * Test wird in so viele Teile zerlegt wie er Items hat, d.h. `jedes Item wird als Testteil behandelt`
 * Anschliesend wird der `Durchschnittswert der Korrelationen aller möglichen Parre von Items berechnet`
 
-### Trennschärfte
+### Trennschärfe
 Ermöglicht eine Einschätzung, `wie gut ein Item zwischen Personen mit niedrieger und hoher Merkmalsausprägung trennt`
 * Wert liegt zwischen -1 und 1
 * Wenn die Trennschärfe = 0 ist, bedeutet das, dass `ein Item mit dem restlichen Test nichts gemeinsam hat`
 * Eine `negative Trennschärfe` bedeutet, dass ein `Item genau falsch herum verstanden wurde`
 * Wichtig: `Der Wert der Trennschärfe sollte den Wert des Cronbach alpha nicht übersteigen`
 * Je `niedriger die Varianz ist, desto höher die Trennschärfe`
+
+### Inferenzstatistik
+Wird auch als `schliessende Statistik bezeichnet`, hierbei wird von der `Stichprobe auf die Grundgesamtheit` geschlossen:
+* Mittelwert einer Stichprobe kann `berechnet werden`
+* Mittelwert einer Grundgesamtheit `muss geschätzt werden`, hierbei sind Fehler (Stichprobenfehler) möglich
+
+## Geschichtete Zufallsstichprobe
+Die Population wird in `verschiedene Gruppen aufgeteilt, nach einem für die Untersuchung relevanten Merkmal (bpsw. Kantone)`. Aus diesem Grund sind diese Art von Stichproben auch `spezifisch repräsentativ`.
+
+## Klumpenstichprobe
+Grundgesamtheit wird in Klumpen (Cluster) eingeteilt (bspw. Schulklasse). Anschliessend wird zufällig von diesen Klumpen ausgewählt. Klumpenstichproben `sind nur eingeschränkt repräsentativ`.
+
+## Stichprobenkennwerteverteilung
+Die Streuung aus der Kennwerteverteilung gilt als Mass dafür, wie gut `ein einzelner Stichprobenmittelwert den Populationsmittelwert schätzen kann`.
+* Mit dem Stichprobenmittelwert `kann direkt auf den Mittelwert der Grundgesamtheit geschlossen werden` aber ist dabei nicht 100% genau wegen der Streuung
+
+## Standardstichprobenfehler
+Ist die `Standardabweichung der Stichprobenkennwerteverteilung`.
+
+## Standardfehler
+* Je kleiner, desto kleiner die Varianz \\( s^2 \\) ist
+* Je kleiner, desto `grösser die Stichprobe ist`
+
+## Signifikanztests
+Bei einem Signifikanztest muss `immer eine Hypothese überprüft werden`, d.h. `kann die Hypothese mit einer genügend hohen Sicherheit verworfen werden`.
+
+## Unterschiedshypothese
+* Behauptet Unterschiede zwischen Gruppen auf Mittelwerte oder Häufigkeiten
+* Unterscheidung zwischen ungerichtet (behauptet nur dass ein Unterschied besteht) und zielgerichtet (behauptet dass eine Gruppe besser oder schlechter abschneidet als eine andere)
+
+## Zusammenhangshypothese
+* Behauptet, dass ein Zusammenhang zwischen Variablen besteht
+* Beispiel: "Es besteht ein Zusammenhang zwischen den geleisteten Übungsstunden und dem Prüfungsergebnis"
+* Ungerichtet behauptet dass es einen Zusammenhang gibt, gerichtet wiederum ob dieser positiv oder negativ ist
+
+## Hypothesenprüfung
+Es werden die Hypothesen `H0 und H1` aufgestellt:
+* H1 (Alternativhypothese) behauptet `dass es einen Zusammenhang / Unterschied gibt`
+* H0 (Nullhypothese) behauptet `dass es keinen Zusammenhang / Unterschied gibt`
+
+Bei Hypothesenprüfungen ist `ein konservatives Vorgehgen zugunsten der H0 zu bevorzugen`.
+
+## Alpha Fehler
+> Bedeutet, dass fälschlicherweise die H0 verworfen wurde
+
+## Beta Fehler
+> Bedeutet, dass fälschlicherweise die H1 verworfen wurde
+* Kann nur bei `spezifischen Hypothesen bestimmt werden, weil sonst die Verteilung der H1 nicht bestimmbar ist`
+
+## Alpha Niveau
+> Legt fest, welche Wahrscheinlichkeit für einen Alpha Fehler noch akzeptabel ist und muss im Vorfeld definiert werden (üblicherweise 0.05 und 0.01, d.h. 5% und 1%).
+* Bei gerichteten Hypothesen schneidet das Alpha Niveau nur die `linke oder rechte Seite`
+* Bei ungerichteten Hypothesen schneidet das Alpha Niveau `sowohl die link und die rechte Seite und muss deshalb halbiert werden auf jeder Seite`
