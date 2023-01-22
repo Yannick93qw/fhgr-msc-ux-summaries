@@ -146,3 +146,25 @@ Bei Hypothesenprüfungen ist `ein konservatives Vorgehgen zugunsten der H0 zu be
 > Legt fest, welche Wahrscheinlichkeit für einen Alpha Fehler noch akzeptabel ist und muss im Vorfeld definiert werden (üblicherweise 0.05 und 0.01, d.h. 5% und 1%).
 * Bei gerichteten Hypothesen schneidet das Alpha Niveau nur die `linke oder rechte Seite`
 * Bei ungerichteten Hypothesen schneidet das Alpha Niveau `sowohl die link und die rechte Seite und muss deshalb halbiert werden auf jeder Seite`
+
+## t-Test
+Untersucht bei `unabhängigen Stichproben`die `Gültigkeit von Unterschiedshypothesen`.
+Ein Beispiel hierzu ist die Einteilung in die Geschlechter männlich und weiblich. Hierbei ist das Geschlecht das Merkmal und die Ausprägungen davon wären männlich und weiblich
+
+## Varianzanalyse
+Man will herausfinden, `ob Gruppenmittelwerte hinsichtlich einer Kriteriumsvariable (abhängige Variable) signifikante Unterschiede aufweisen`:
+* Vergleich zwischen der Varianz `zwischen den Gruppenmittelwerten und der Varianz innerhalb der Gruppen`
+
+## F-Test
+Überprüft `ob ein signifikanter Effekt der Gruppenzugehörigkeit besteht`, d.h. ob die Zwischengruppenvarianz im Vergleich zur Innergruppenvarianz signifikant gross ist:
+* F-Wert von 1 beduetet dass es `keinen Effekt gibt` (F-Wert kann in F-Tabelle nachgeschlagen werden)
+* Wenn F-Wert > 1 bedeutet dass, dass es `signifikante Gruppenutnerschiede` gibt
+
+## Erklärte Varianz
+\\(  \eta^2 \\) gibt an welcher `Anteil der Gesamtvarianz durch die Gruppenzugehörigkeit erklärt werden kann`.
+
+## Tukey-Test
+Wird verwendet um herauszufinden `welche Gruppen sich voneinander unterscheiden`.
+
+## Signifikanzniveau
+Ist die Irrtumswahrscheinlichkeit im Fall, dass man einen Unterschied zwischen den Kategorien hinsichtlich des Kriteriums annimmt

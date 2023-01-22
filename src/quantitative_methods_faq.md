@@ -63,3 +63,22 @@ Die Verzerrung in der Repräsentatitivität `gegenüber einer einfachen Zufallss
 
 ## Wann kann eine Hypothese verworfen oder beibehalten werden?
 Wenn die Irrtumswahrscheinlichkeit \\( \rho < \alpha \\) ist, kann die H0 verworfen werde, ansonsten muss sie beibehalten werden.
+
+## Welche Voraussetzungen braucht es für einen t-Test?
+* dichotome Prädikatorvariable (Variable welche eine andere beeinflusst)
+* Metrische Variable
+
+## Welche Voraussetzungen braucht es für eine Varianzanalyse?
+* Nominalskalierter Prädiktor
+* Metrische Variable
+
+## Wie kann festgestellt werden, ob die Zugehörigkeit zu einer Gruppe einen Effekt hat?
+Wenn die Varianz zwischen den Gruppen im Vergleich mit der `Innergruppenvarianz` gross ist
+
+## Was ist der Unterschied zwischen der Varianzanalyse und dem t-Test?
+* t-Test kann `jeweils nur zwei Gruppenmittelwerte einbeziehen`
+* Wendet man den t-Test für `nominalskalierte, nicht-dichotome Variablen an, müssen einzelne Gruppenvergleiche durchgeführt werden`
+* Abgesehen von den vielen Tests `summiert sich auch der Alpha fehler`
+
+## Wann können parametrische Tests überhaupt durchgeführt werden?
+Es muss eine `normalverteilte Kriteriumsvariable` vorliegen, sonst müssen nicht parametrische Tests durchgeführt werden

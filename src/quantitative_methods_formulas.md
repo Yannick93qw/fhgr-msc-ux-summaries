@@ -158,3 +158,21 @@ Links = (-z_{90\\%} \sigma\bar{x})
 \\[
 Rechts = (+z_{90\\%} \sigma\bar{x})
 \\]
+
+## Anzahl Gruppenvergleiche
+
+K = Anzahl der Kategorien des Prädikators
+
+\\[
+\frac{1}{2}K^2 - \frac{1}{2}K
+\\]
+
+Beispiel: Überprüfung ob sich die Leistung von Maturanden in der Basisprüfung in 62 Kantonsschulen unterscheidet:
+
+\\[
+\frac{1}{2}62^2 - \frac{1}{2}62 = 1891
+\\]
+
+
+## Mean Square berechnen (Tukey Test)
+Sum of Squares (SS) dividiert durch Anzahl Freiheitsgrade (df) 
