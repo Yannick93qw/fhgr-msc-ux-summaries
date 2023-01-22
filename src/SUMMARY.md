@@ -32,3 +32,5 @@
   - [FAQ](./quantitative_methods_faq.md)
   - [Skalen](./quantitative_methods_scales.md)
   - [Formeln](./quantitative_methods_formulas.md)
+  - [SPPS Cheatsheet](./quantitative_methods_spss.md)
+  - [Mögliche Aufgaben](./quantitative_methods_exercises.md)
