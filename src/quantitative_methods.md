@@ -47,3 +47,48 @@
 * Kann benutzt werden um eine `statistische Überprüfung der Normalverteilung` durchzuführen.
 * Es werden `zwei Variablen` benötigt
 * Bei einer Normalverteilung `liegen die Werte auf einer Linie`
+
+### Klassische Testtheorie (KTT)
+Die klassische Testtheorie (KTT) besagt, `dass jede Messung sich aus einem wahren Wert und einem zufälligen Messfehler zusammensetzt`. Wichtig hierbei ist, dass die `Messfehler einzelner Items und Personen nicht korrelieren`, d.h:
+\\[
+\rho(\epsilon_{vi},\epsilon_{vj}) = 0
+\\]
+
+Der eigentliche `Messwert setzt sich aus dem wahren Wert und dem Messfehler zusammen`, d.h. \\( Messwert = Wahrer Wert + Messfehler \\)
+
+Hierbei gilt es aber folgendes zu beachten:
+* Verteilung der Messwerte sollte schmal sein
+* Einzelner Messwert zeigt zuverlässiger den wahren Testwert, wenn die  `Verteilung der Messwerte breit ist`, d.h. der `Standardmessfehler klein ist`
+
+Kurz zusammengefasst bedeutet KTT dass:
+* Eine Skala bildet die Summe von Messungen aus verschiedenen Items ab
+* Jedes Item sollte das latente Konstrukt gleichermassen gut abbilden
+* Für jedes Item `resultiert ein Messwert, der möglichst nah am wahren Wert liegen sollte`
+
+### Itemschwierigkeit
+Drückt aus, wie `schwer eine Aufgabe für Personen zu beantworten war`, d.h. wie viele die richtige Lösung erhalten haben.
+
+### Schiefe (v)
+* Bei symmetrischen Verteilungen ist die Schiefe = 0
+* Linkssteil bedeutet `v > 0`
+* Rechtssteil bedeutet `v < 0`
+* Schiefe sollte bei Skalenitems nicht > 1 oder < - 1 sein
+
+### Kurtosis
+Sollte bei Skalenitems nicht über 8 liegen
+
+### Reliabilität
+* Beschreibt die  `Zuverlässigkeit eines Tests`
+* Wertebreich von 0 bis 1 (1 = messfehlerfrei)
+
+### Cronbachs alpha
+* Test wird in so viele Teile zerlegt wie er Items hat, d.h. `jedes Item wird als Testteil behandelt`
+* Anschliesend wird der `Durchschnittswert der Korrelationen aller möglichen Parre von Items berechnet`
+
+### Trennschärfte
+Ermöglicht eine Einschätzung, `wie gut ein Item zwischen Personen mit niedrieger und hoher Merkmalsausprägung trennt`
+* Wert liegt zwischen -1 und 1
+* Wenn die Trennschärfe = 0 ist, bedeutet das, dass `ein Item mit dem restlichen Test nichts gemeinsam hat`
+* Eine `negative Trennschärfe` bedeutet, dass ein `Item genau falsch herum verstanden wurde`
+* Wichtig: `Der Wert der Trennschärfe sollte den Wert des Cronbach alpha nicht übersteigen`
+* Je `niedriger die Varianz ist, desto höher die Trennschärfe`

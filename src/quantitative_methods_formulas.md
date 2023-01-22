@@ -119,11 +119,23 @@ s = \sqrt{s^2} = \sqrt{\frac{1}{n} \sum_{i=1} (xi - \bar{x})^2}
 z = \frac{x - \bar{x}}{s}
 \\]
 
+## Itemschwierigkeit
+Pi beschreibt die Itemschwierigkeit, d.h. Pi = 0 bedeutet, dass keine Person die Aufgabe lösen konnte
+* Eine Faustregel ist, dass die `Schwierigkeit der Items zwischen 20 und 80 liegen sollte`
 
+\\[
+P_i = \frac{\bar{x}_i - min(x_i)}{max(x_i) - min(x_i)} * 100 
+\\]
 
+### Wenn Minimumwert = 0
+\\[
+P_i = \frac{\bar{x}_i}{max(x_i)} * 100
+\\]
 
-
-
+## Reliabilität
+\\[
+r_{tt} = \frac{\sigma^2(x) - \sigma^2(\epsilon)}{\sigma^2(x)}
+\\]
 
 
 

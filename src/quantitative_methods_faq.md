@@ -32,3 +32,22 @@ Ihre Berechnung beruht nur auf zwei Werten der Verteilung. Für `Ordinaldaten si
 ## Welche Gründe gibt es bei der Quadrierung der Varianz?
 * Es interessiert der `relative Abstand zum Mittelwert`
 * Vorzeichen sind unwichtig `stärkere Abweichungen werden mehr gewichtet` und werden daher verstärkt, d.h bessere Repräsentation von Streuung
+
+## Welche Methoden zur Reliabilitätsbestimmung gibt es?
+* Retest-Reliabilität
+* Paralleltest-Reliabilität
+* Interne Konsistenz
+  * Halbtest-Reliabilität (Test wird in zwei gleich lange Hälften geteilt)
+  * Alpha-Koeffizient (Cronbachs alpha)
+
+  Es ist nur dann `sinnvoll, wenn das erfasste Merkmal zeitlich stabil ist`.
+
+## Ab wann können Tests als parallel betrachtet werden?
+* Wenn beiden Messungen der `gleiche wahre Wert zugrunde liegt`
+* Gleiche Streuungen und gleiche Anteile von wahrer Varianz und Fehlervarianz vorhanden sind
+
+## Welche Vorteile hat die interne Konsistenz bei der Schätzung der Reliabilität?
+* Es muss nur eine Messung durchgeführt werden
+* Es müssen `keine Parallelformen eines Tests konstruiert werden`
+* Erfasstes Mekmal `muss nicht zeitlich stabil sein`
+
