@@ -10,6 +10,7 @@
   - [Affinity Diagramme, Personas und Szenarien](./affinity_diagrams_personas_scenarios.md)
   - [Interaction Design](./interaction_design.md)
   - [User Experience Evaluation](./user_experience_evaluation.md)
+  - [Mögliche Prüfungsfragen](./hci_possible_exam_questions.md)
 - [Research Design and Qualitative Methods](./research_design_and_qualitative_methods.md)
   - [Forschungsprozess](./research_process.md)
   - [Literature Review und Lesetechniken](./literature_review_reading_techniques.md)
