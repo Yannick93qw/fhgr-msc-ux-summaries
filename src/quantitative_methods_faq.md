@@ -93,3 +93,6 @@ Die Summe der Abweichungen ist immer null.
 
 ## Was ist das Problem der Regressionsgerade?
 Für `jede Punktewolke kann eine optimale Gerade berechnet werden, egal wie gut die Gerade den Zusammenhang erklärt`.
+
+## Woran erkennt man eine Verbesserung in bestimmten Bereichen?
+Eine Verbesserung ist dann erreicht, wenn `sich die Konfidenzintervalle nicht überschneiden`.

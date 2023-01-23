@@ -36,3 +36,4 @@
   - [Formeln](./quantitative_methods_formulas.md)
   - [SPPS Cheatsheet](./quantitative_methods_spss.md)
   - [Mögliche Aufgaben](./quantitative_methods_exercises.md)
+  - [Entscheidungsmatrix Andy Field](./quantitative_methods_andy_field.md)

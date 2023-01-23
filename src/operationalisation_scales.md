@@ -37,7 +37,33 @@ Die Daten bei einer Ordinalskala `folgen einer Rangreihe / Rangskala`:
 * Aussagen über `absolute Abstände nicht möglich`
 * Rechenoperationen sind nicht möglich
 
+Beispiele:
+* Häufigkeit des Bücherlesens zum Vergnügen mit den Auswahloptionen:
+  * täglich
+  * an ca. 3-6 Tagen pro Woche
+  * an ca. 1-2 Tagen pro Woche
+  * praktisch nie
+* Körpergrösse mit Auswahloptionen:
+  * unter 120cm
+  * 120 bis 150cm
+  * mehr als 150cm
+* Höchster Bildungsabschluss mit den Auswahloptionen:
+  * obligatorische Schule
+  * Abschluss der Sekundarstufe 2
+  * BA
+  * MA
+  * Doktorat
+
 ### Metrische Skalen
 Beispiele für metrische Skalen sind `Ratio- und Intervallskalen`.
 `Intervallskalen` erlauben `Aussagen über absolute Abstände` und den `Vergleich von Differenzen`. Ein Beispiel für eine Intervalldkala ist die Frage "In welchem Jahr wurdest du gebohren" mit der Eingabeoption einer vierstelligen Zahl.
 Die `Ratio-/Verhältnis-/Proportionalskala` besitzt einen `natürlichen Nullpunkt` und es sind `Aussagen über Verhältnisse zwischen Werten möglich`. Ein Beispiel hierfür ist die Frage nach dem Alter.
+
+Beispiele Orinalskala:
+* Alter in Jahren
+* Körpergrösse in cm
+
+Beispiele Intervallskala:
+* Intelligenzquotient (arithmetischer Mittelwert 100, Standardabweichung 15)
+* Mathematikleistung im PISA-Test (Durchschnitt 500, Standardabweichung 100)
+

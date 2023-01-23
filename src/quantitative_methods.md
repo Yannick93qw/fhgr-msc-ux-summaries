@@ -136,11 +136,13 @@ Es werden die Hypothesen `H0 und H1` aufgestellt:
 Bei Hypothesenprüfungen ist `ein konservatives Vorgehgen zugunsten der H0 zu bevorzugen`.
 
 ## Alpha Fehler
-> Bedeutet, dass fälschlicherweise die H0 verworfen wurde
+> Bedeutet, dass fälschlicherweise die H0 verworfen wurde, sprich wenn fälschlicherweise eine Alternativhypothese angenommen wird obwohl die Null Hypothese richtig wäre.
 
 ## Beta Fehler
 > Bedeutet, dass fälschlicherweise die H1 verworfen wurde
 * Kann nur bei `spezifischen Hypothesen bestimmt werden, weil sonst die Verteilung der H1 nicht bestimmbar ist`
+
+`Wichtig: Alpha und Beta Fehler sind Gegensätze zueinander, sprich je höher die Wahrscheinlichkeit eines Alpha Fehlers, desto kleiner ist die Wahrscheinlichkeit eines Beta Fehlers`
 
 ## Alpha Niveau
 > Legt fest, welche Wahrscheinlichkeit für einen Alpha Fehler noch akzeptabel ist und muss im Vorfeld definiert werden (üblicherweise 0.05 und 0.01, d.h. 5% und 1%).

@@ -113,11 +113,14 @@ s = \sqrt{s^2} = \sqrt{\frac{1}{n} \sum_{i=1} (xi - \bar{x})^2}
 
 ## Z-Wert
 * Damit kann beurteilt werden, wo in der `Verteilung die Werte liegen`
-
+* Der Z-Wert kann anschliessend in eine Wertetabelle eingegeben werden: [Link](http://eswf.uni-koeln.de/glossar/zvert.htm). Anschliessend weiss man `wie viel Prozent als unter dem Mittelwert liegen`
 
 \\[
 z = \frac{x - \bar{x}}{s}
 \\]
+
+## Tatsächlicher Wert
+Um den tatsächlichen Wert zu berechnen muss der z-Wert (abhängig vom Alpha Niveau) mit dem Standardfehler multipliziert werden. `Bei einem Alpha Niveau von 5% ist der z-Wert 1.96`.
 
 ## Itemschwierigkeit
 Pi beschreibt die Itemschwierigkeit, d.h. Pi = 0 bedeutet, dass keine Person die Aufgabe lösen konnte
