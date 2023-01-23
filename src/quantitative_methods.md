@@ -168,3 +168,37 @@ Wird verwendet um herauszufinden `welche Gruppen sich voneinander unterscheiden`
 
 ## Signifikanzniveau
 Ist die Irrtumswahrscheinlichkeit im Fall, dass man einen Unterschied zwischen den Kategorien hinsichtlich des Kriteriums annimmt
+
+## Korrelation
+Korrelation beschreibt die Beziehung die zwischen zwei Variablen besteht
+
+## Pearsonsche Produkt-Moment-Korrelationskoeffizient
+Masszahl für Zusammenhänge:
+* Wertebereich liegt zwischen -1 und 1
+* Am einfachsten über das Bestimmtheitsmass \\( r^2\\) zu interpretieren
+* Wenn \\( r^2 = 0.48 \\) für Körpergewicht und Körpergrösse, dann bedeutet dass, das 48% der Varianz des Körpergewichtes durch die Körperlänge bestimmt wird
+
+## Relative Position
+* Gross und positiv bedeutet `starker direkter Zusammenhang`
+* Gross und negativ bedeutet `starker negativer Zusammenhang`
+* 0 wenn keine Beziehung besteht
+
+## Kovarianz
+Ist abhängig vom `Masstab der zugrunde liegenden Variablen` Sie ist daher bei `sozialwissenschaftlichen Anwendungen` bei denen `es nicht um festgelegt Masseinheiten wie Gewichts- und Längeneinheiten geht, weniger geeignet`.
+
+## Regresionsanalyse
+Mithilfe der Regressionsanalyse kann beschrieben werden, `welchen Einfluss unabhängige Variablen auf abhängige Variablen ausüben`. Zudem kann beschrieben werden, was mit der Variable passiert wenn die andere verändert wird.
+* Mit der Regressionanalyse werden `gleichzeitig mehrere unabhängige Variablen untersucht`
+* Wir sind jedoch nur an einer bestimmten interessiert, die anderen Variablen `müssen deshalb über Kontrollvariablen "kontrolliert" werden`.
+
+## Kleinste Quadrate
+Ziel des Kleinsten-Quadrate-Verfahrens ist es die `Summe des Abstandes zwischen beobachteten Werten und den geschätzten Werten zu minimieren`.
+
+## Prädiktorvariable
+Wird auch als `unabhängige Variable` bezeichnet.
+
+## Standardisierte Regressionskoeffizienten
+Die b-Gewichte lassen `wegen der unterschiedlichen Messskalen der Prädikatoren keine Aussage darüber zu, welche Prädikatoren die höchste Vorhersagekraft haben`. Hierzu muss mit `standardisierten Z-Werten gerechnet werden`.
+
+## Multipler Korrelationskoeffizient \\( R^2 \\)
+Ist ein Mass das aussagt, wie gut eine Gerade zu einer Punktewolke passt, bzw. welchen Erklärungsgehalt die Regressionsgerade hat.

@@ -176,3 +176,46 @@ Beispiel: Überprüfung ob sich die Leistung von Maturanden in der Basisprüfung
 
 ## Mean Square berechnen (Tukey Test)
 Sum of Squares (SS) dividiert durch Anzahl Freiheitsgrade (df) 
+
+## Relative Position
+\\[
+\sum_{i=1}(x_i - \mu_x)(y_i - \mu_y)
+\\]
+
+## Geradengleichung
+
+b0 = Achsenabschnitt (Schnittpunkt der Gerade mit Y-Achse)
+
+b1 = Steigung der Geraden
+
+\\[
+Y = b_0 + b_1X
+\\]
+
+## Kleinste Quadrate
+Die Grundformel für die Methode der kleinsten Quadrate ist:
+\\[
+\sum e_i = \sum (y_i - \bar{y_i})
+\\]
+
+Ersetzt man jedoch \\( \bar{y_i}\\) durch die Geradengleichung erhält man eine neue Formel. Die Formel bekommt ihren Namen, weil `nicht die Abweichungen sondern die quadrierten Abweichungen minimiert werden`.
+
+\\[
+\sum e_i^2 = \sum (y_i - (b_0 + b_1*x_i))^2 = min 
+\\]
+
+## Standardisierte Z-Werte
+
+\\[
+\beta_i = b_i \frac{s_{xi}}{s_y}
+\\]
+
+## Bestimmheitsmasse \\( R^2\))
+
+SSreg = Sum of Squares of Regression
+
+SStot = Sum of Squares total
+
+\\[
+R^2 = \frac{SS_{reg}}{SS_{tot}}
+\\]

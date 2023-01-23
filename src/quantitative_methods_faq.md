@@ -82,3 +82,14 @@ Wenn die Varianz zwischen den Gruppen im Vergleich mit der `Innergruppenvarianz`
 
 ## Wann können parametrische Tests überhaupt durchgeführt werden?
 Es muss eine `normalverteilte Kriteriumsvariable` vorliegen, sonst müssen nicht parametrische Tests durchgeführt werden
+
+## Bei welchen Fragestellungen kommt eine Regressionsanalyse zum Einsatz?
+* Welchen Einfluss haben der Preis und Marketingaufwendungen auf meine Verkaufszahlen?
+* Welche Faktoren beeinflussen die Innovationsrate eines Landes?
+* Welche Faktoren beeinflussen das wirtschaftliche Wachstum von Entwicklungsländern
+
+## Was ist das spezielle an einer durchschnittlichen Gerade?
+Die Summe der Abweichungen ist immer null.
+
+## Was ist das Problem der Regressionsgerade?
+Für `jede Punktewolke kann eine optimale Gerade berechnet werden, egal wie gut die Gerade den Zusammenhang erklärt`.
