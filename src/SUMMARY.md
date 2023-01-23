@@ -30,6 +30,7 @@
   - [Datenanalyse](./data_management_data_analysis.md)
   - [Data-Mining Grundprinzipien](./data_management_data_mining.md)
   - [Data Warehouse und OLAP](./data_management_data_warehouse_olap.md)
+  - [Mögliche Aufgaben](./data_management_possible_exercises.md)
 - [Quantitative Methods](./quantitative_methods.md)
   - [FAQ](./quantitative_methods_faq.md)
   - [Skalen](./quantitative_methods_scales.md)
