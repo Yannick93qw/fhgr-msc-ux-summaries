@@ -50,3 +50,11 @@ Folgende drei Fragen sollten immer beantwortet werden können:
 ## Was ist der Unterschied zwischen Sketches und Prototypes?
 Sketches sind `schnell, preiswert und einfach herzustellen` und `schlagen` einen möglichen Designentwurf vor.
 Prototypen hingegen sind bereits eine `spezifische Darstellung eines möglichen Lösungsvorschlags`.
+
+## Was ist das Ziel von User Experience Evaluation?
+Die User Experience Evaluation orientiert sich an den Phasen des User Centered Design Prozesses. Die Hauptaufgabe besteht in der `Fehlerkorrektur in den einzelnen Phasen`.
+
+## Was ist der Unterschied zwischen Einstellung und Verhalten?
+Einstellung ist `was die Leute sagen`, Verhalten ist `was die Leute tun`. Diese zwei Aspekte sind oft sehr unterschiedlich.
+
+

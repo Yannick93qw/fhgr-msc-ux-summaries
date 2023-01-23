@@ -10,7 +10,7 @@ HCI besteht aus einer Vielzahl von unterschiedlichen Disziplinen:
 ## Definitionserklärungen
 
 ### Definition Usability
-> Usability definiert, wie einfach ein bestimmtes Produkt innerhalb eines **Nutzungskontextes** genutzt werden kann um **einfach** und **effizient** die Ziele des Nutzers zu erreichen.
+> Usability definiert, wie einfach ein bestimmtes Produkt innerhalb eines **Nutzungskontextes** genutzt werden kann um **einfach**, **effizient** und **zufriedenstellend** die Ziele des Nutzers zu erreichen.
 
 ### Definition Nutzungskontext
 > Beschreibt die physische und soziale Umgebung, in welcher ein Produkt verwendet wird.
@@ -22,6 +22,9 @@ HCI besteht aus einer Vielzahl von unterschiedlichen Disziplinen:
 
 ### Definition Effizienz
 > Aufwand mit welchem der Nutzer ein bestimmtes Ziel erreicht. *Beispielsweise die Tastenanschläge pro Minute*
+
+### Definition Zufriedenstellung
+> Freiheit von Beeinträchtigung und positive Einstellung gegenüber der Nutzung des Produktes.
 
 ### Definition User Experience
 > Reaktion, Emotionen und Wahrnehmungen des Nutzers bei der Interaktion mit dem Produkt **vor**, **während** und **nach** der Nutzung.
@@ -99,3 +102,32 @@ Die Desktop Metapher stellt im Gegensatz zur Kommandzeile ein neuer Ansatz zur I
 
 ### Prototyp
 > Ein Prototyp ist ein `funktionsfähiges aber vereinfachtes Produkt` für einen `bestimmten Zweck`. Es kann dabei rein `äusserlich oder technisch` dem Endprodukt entsprechend. 
+
+### User Experience Evaluation
+> Ist die Bewertung der User Experience einer Lösung in `Hinblick daruaf, wie gut sie die Benutzer unterstützt um ihre Ziele zu erreichen`
+
+### Qualitative Studien
+> Liefern Daten über `Verhaltensweisen oder Einstellungen` auf Grundlage `direkter Beobachtung`. Sind gut geeignet um zu beantworten `warum oder wie ein Problem zu lösen ist`.
+
+### Quantitative Studien
+> Daten über Verhalten oder Einstellung werden `indirekt über eine Messung` erhoben. Beantwortet die Frage nach dem `Wieviel`.
+
+### Natural Produktverwendung
+> Natürliche oder naturnahe Verwendung des Produktes. Kann über `Field Studies ermittelt werden`.
+
+### Scripted Produktverwendung
+> Gezielte Nutzung des Produktes. Kann über `Usability Studies ermittelt werden`.
+
+### Limited Produktverwendung
+> Begrenze Nutzung um einen `bestimmten Aspekt der Benutzererfahrung zu untersuchen` Kann über `Card Sorting ermittelt werden`
+
+### Decontextualized Produktverwendung
+> Keine Verwendung `des Produktes während der Studie`. Kann über eine `Survey ermittelt werden`.
+
+### Externe Validität
+> Ist das Testen des Produktes im `echten Umfeld, d.h. im Feld draussen`
+
+### Interne Validität
+> Ist das Testen des Produktes in einer `sicheren und kontrollierten Umgebung, d.h. im Labor`
+
+
