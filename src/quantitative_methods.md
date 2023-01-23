@@ -202,3 +202,13 @@ Die b-Gewichte lassen `wegen der unterschiedlichen Messskalen der Prädikatoren 
 
 ## Multipler Korrelationskoeffizient \\( R^2 \\)
 Ist ein Mass das aussagt, wie gut eine Gerade zu einer Punktewolke passt, bzw. welchen Erklärungsgehalt die Regressionsgerade hat.
+
+## Effektgrösse
+Die Effektgrösse wird `zur Beurteilung einer optimalen Stichprobengrösse angewendet`:
+* Wird grösser mit zunehmender Mittelwertsdifferenz und auch mit abnehmender Streuung
+
+## Chi-Quadrat Test
+Kann für `nominalskalierte Variablen` eingesetzt werden um eine `Zusammenhangshypothese` zu überprüfen:
+* Man möchte zum Beispiel herausfinden ob Mitglieder von zwei Gruppen sich hinsichtlich ihrer Präferenzen für ein Produkt unterscheiden (mit Ja oder Nein Antwortmöglichkeiten)
+
+

@@ -31,3 +31,6 @@ Analyse > Mittelwerte vergleichen > Einfaktorielle ANOVA:
 Analyse > Regression > Linear:
 * Abhängige und unabhängige metrische Variablen eingeben
 * Bei `stepwise erfolgt die Aufnahme der nächsten Variable nur, wenn diese relevante zusätzliche Varianz erklärt`
+
+## Chi-Quadrat
+Der Chi-Quadrat Test kann bei den `Kreuztabellen gefunden werden`.

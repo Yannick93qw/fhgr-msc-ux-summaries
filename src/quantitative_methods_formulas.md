@@ -142,6 +142,12 @@ r_{tt} = \frac{\sigma^2(x) - \sigma^2(\epsilon)}{\sigma^2(x)}
 \sigma_{\bar{x}} = \sqrt{\frac{\sigma^2}{n}}
 \\]
 
+Anders umgeformt ergibt sich für den Standardfehler
+
+\\[
+SE = \frac{s}{\sqrt{n}}
+\\]
+
 ### Ermittlung Populationsvarianz (falls nicht bekannt)
 \\[
 \sigma^2 = \frac{s^2n}{n-1}
@@ -219,3 +225,24 @@ SStot = Sum of Squares total
 \\[
 R^2 = \frac{SS_{reg}}{SS_{tot}}
 \\]
+
+## Effekgrösse
+* 0.2 = kleiner Effekt
+* 0.5 = mittlerer Effekt
+* 0.8 = grosser Effekt
+
+\\[
+\epsilon = \frac{\bar{x}_A - \bar{x}_B}{s}
+\\]
+
+## Chi-Quadrat
+Bei einem Chi-Quadrat Test ist die Grundlage eine `Vierfeldertafel`
+
+![Vierfeldertafel](./images/chi-square-table.png)
+
+\\[
+\chi^2 = \frac{N(ad - bc)^2}{ABCD}
+\\]
+
+Wichtig die `Anzahl der Freiheitsgrade hängt davon ab wie viele Zellen frei varriieren können`
+Der kritische Wert kann aus der Tabelle abgelesen werden mit alpha Wert von 5% und der Anzahl der Freiheitsgrade.
