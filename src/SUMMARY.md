@@ -38,3 +38,5 @@
   - [SPPS Cheatsheet](./quantitative_methods_spss.md)
   - [Mögliche Aufgaben](./quantitative_methods_exercises.md)
   - [Entscheidungsmatrix Andy Field](./quantitative_methods_andy_field.md)
+- [Explorative Data Analytics](./explorative_data_analytics.md)
+  - [Mögliche Aufgaben](./explorative_data_analytics_exercises.md)
