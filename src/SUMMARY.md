@@ -40,3 +40,4 @@
   - [Entscheidungsmatrix Andy Field](./quantitative_methods_andy_field.md)
 - [Explorative Data Analytics](./explorative_data_analytics.md)
   - [Mögliche Aufgaben](./explorative_data_analytics_exercises.md)
+- [Web Data Analytics](./web_data_analytics.md)
