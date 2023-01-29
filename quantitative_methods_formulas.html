@@ -1,0 +1,386 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Formeln - FHGR Msc UX Summaries</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/catppuccin-highlight.css">
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="human_computer_interaction.html"><strong aria-hidden="true">1.</strong> Human Computer Interaction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="hci_faq.html"><strong aria-hidden="true">1.1.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="history_of_hci.html"><strong aria-hidden="true">1.2.</strong> Geschichte von HCI</a></li><li class="chapter-item expanded "><a href="fields_of_hci.html"><strong aria-hidden="true">1.3.</strong> Forschungsgebiete von HCI</a></li><li class="chapter-item expanded "><a href="ux_process_and_lifecycle.html"><strong aria-hidden="true">1.4.</strong> UX Prozess und Lifecycle</a></li><li class="chapter-item expanded "><a href="user_research.html"><strong aria-hidden="true">1.5.</strong> Nutzerforschung</a></li><li class="chapter-item expanded "><a href="system_complexity_project_parameters.html"><strong aria-hidden="true">1.6.</strong> Systemkomplexität und Projekt Parameter</a></li><li class="chapter-item expanded "><a href="affinity_diagrams_personas_scenarios.html"><strong aria-hidden="true">1.7.</strong> Affinity Diagramme, Personas und Szenarien</a></li><li class="chapter-item expanded "><a href="interaction_design.html"><strong aria-hidden="true">1.8.</strong> Interaction Design</a></li><li class="chapter-item expanded "><a href="user_experience_evaluation.html"><strong aria-hidden="true">1.9.</strong> User Experience Evaluation</a></li><li class="chapter-item expanded "><a href="hci_possible_exam_questions.html"><strong aria-hidden="true">1.10.</strong> Mögliche Prüfungsfragen</a></li></ol></li><li class="chapter-item expanded "><a href="research_design_and_qualitative_methods.html"><strong aria-hidden="true">2.</strong> Research Design and Qualitative Methods</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="research_process.html"><strong aria-hidden="true">2.1.</strong> Forschungsprozess</a></li><li class="chapter-item expanded "><a href="literature_review_reading_techniques.html"><strong aria-hidden="true">2.2.</strong> Literature Review und Lesetechniken</a></li><li class="chapter-item expanded "><a href="define_terms.html"><strong aria-hidden="true">2.3.</strong> Begriffe definieren</a></li><li class="chapter-item expanded "><a href="research_question_and_hypothesis.html"><strong aria-hidden="true">2.4.</strong> Forschungsfrage und Hypothesen</a></li><li class="chapter-item expanded "><a href="operationalisation_scales.html"><strong aria-hidden="true">2.5.</strong> Operationalisierung und Skalenbildung</a></li><li class="chapter-item expanded "><a href="research_design.html"><strong aria-hidden="true">2.6.</strong> Forschungsdesign</a></li><li class="chapter-item expanded "><a href="quantitativ_content_analysis.html"><strong aria-hidden="true">2.7.</strong> Quantitative Inhaltsanalyse</a></li><li class="chapter-item expanded "><a href="expert_reviews.html"><strong aria-hidden="true">2.8.</strong> Leitfaden und Experteninterviews</a></li><li class="chapter-item expanded "><a href="group_discussion.html"><strong aria-hidden="true">2.9.</strong> Gruppendiskussion</a></li><li class="chapter-item expanded "><a href="qualitative_content_analysis.html"><strong aria-hidden="true">2.10.</strong> Qualitative Inhaltsanalyse</a></li><li class="chapter-item expanded "><a href="case_study.html"><strong aria-hidden="true">2.11.</strong> Fallstudie</a></li></ol></li><li class="chapter-item expanded "><a href="data_management.html"><strong aria-hidden="true">3.</strong> Data Management</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="data_management_introduction.html"><strong aria-hidden="true">3.1.</strong> Einführung</a></li><li class="chapter-item expanded "><a href="data_management_data_representation.html"><strong aria-hidden="true">3.2.</strong> Erhebungen und deren Datenrepräsentation</a></li><li class="chapter-item expanded "><a href="data_management_document_management.html"><strong aria-hidden="true">3.3.</strong> Dokumentenamangement</a></li><li class="chapter-item expanded "><a href="data_management_data_analysis.html"><strong aria-hidden="true">3.4.</strong> Datenanalyse</a></li><li class="chapter-item expanded "><a href="data_management_data_mining.html"><strong aria-hidden="true">3.5.</strong> Data-Mining Grundprinzipien</a></li><li class="chapter-item expanded "><a href="data_management_data_warehouse_olap.html"><strong aria-hidden="true">3.6.</strong> Data Warehouse und OLAP</a></li><li class="chapter-item expanded "><a href="data_management_possible_exercises.html"><strong aria-hidden="true">3.7.</strong> Mögliche Aufgaben</a></li></ol></li><li class="chapter-item expanded "><a href="quantitative_methods.html"><strong aria-hidden="true">4.</strong> Quantitative Methods</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quantitative_methods_faq.html"><strong aria-hidden="true">4.1.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="quantitative_methods_scales.html"><strong aria-hidden="true">4.2.</strong> Skalen</a></li><li class="chapter-item expanded "><a href="quantitative_methods_formulas.html" class="active"><strong aria-hidden="true">4.3.</strong> Formeln</a></li><li class="chapter-item expanded "><a href="quantitative_methods_spss.html"><strong aria-hidden="true">4.4.</strong> SPPS Cheatsheet</a></li><li class="chapter-item expanded "><a href="quantitative_methods_exercises.html"><strong aria-hidden="true">4.5.</strong> Mögliche Aufgaben</a></li><li class="chapter-item expanded "><a href="quantitative_methods_andy_field.html"><strong aria-hidden="true">4.6.</strong> Entscheidungsmatrix Andy Field</a></li></ol></li><li class="chapter-item expanded "><a href="explorative_data_analytics.html"><strong aria-hidden="true">5.</strong> Explorative Data Analytics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="explorative_data_analytics_exercises.html"><strong aria-hidden="true">5.1.</strong> Mögliche Aufgaben</a></li></ol></li><li class="chapter-item expanded "><a href="web_data_analytics.html"><strong aria-hidden="true">6.</strong> Web Data Analytics</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">FHGR Msc UX Summaries</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="formeln"><a class="header" href="#formeln">Formeln</a></h1>
+<h2 id="relative-häufigkeit"><a class="header" href="#relative-häufigkeit">Relative Häufigkeit</a></h2>
+<p>\[
+\%k = \frac{fk}{n}*100\%
+\]</p>
+<h2 id="gültige-prozentwerte-bei-häufigkeiten"><a class="header" href="#gültige-prozentwerte-bei-häufigkeiten">Gültige Prozentwerte bei Häufigkeiten</a></h2>
+<p>fk = Absolute Häufigkeit</p>
+<p>nv = Gültige Anzahl an Werten
+\[
+\%kv = \frac{fk}{nv}*100\%
+\]</p>
+<h2 id="winkel-eines-kreisauschnittes-berechnen"><a class="header" href="#winkel-eines-kreisauschnittes-berechnen">Winkel eines Kreisauschnittes berechnen</a></h2>
+<p>\[
+\gamma k = \frac{\%k * 360\circ}{100\%}
+\]</p>
+<h2 id="medianwert-oder-zentralwert"><a class="header" href="#medianwert-oder-zentralwert">Medianwert oder Zentralwert</a></h2>
+<ul>
+<li>Ist derjenige Wert <code>unter und über dem gleichviele Fälle liegen</code></li>
+<li>Ist <code>unempfindlich gegenüber Ausreissern</code></li>
+<li>Wird ab <code>Ordinalskalenniveau verwendet</code></li>
+</ul>
+<h3 id="berechnung-für-ungerade-anzahl-n"><a class="header" href="#berechnung-für-ungerade-anzahl-n">Berechnung für <code>ungerade Anzahl N</code></a></h3>
+<p>\[
+Md = x[\frac{N + 1}{2}] 
+\]</p>
+<h3 id="berechnung-für-gerade-anzahl-n"><a class="header" href="#berechnung-für-gerade-anzahl-n">Berechnung für <code>gerade Anzahl N</code></a></h3>
+<p>\[
+Md = \frac{x[\frac{N}{2}] + x[\frac{N}{2} + 1]}{2} 
+\]</p>
+<h2 id="arithmetischs-mittel"><a class="header" href="#arithmetischs-mittel">Arithmetischs Mittel</a></h2>
+<ul>
+<li>Bekanntes Mass der zentralen Tendenz</li>
+<li>Darf nur <code>bei metrischem Skalenniveau berechnet werden</code></li>
+<li>Anfällig gegenüber Ausreissern</li>
+</ul>
+<p>\[
+x = \frac{(x1 + x2 + x3 + ... + xn)}{n}
+\]</p>
+<h2 id="gewichtetes-arithmetische-mittel"><a class="header" href="#gewichtetes-arithmetische-mittel">Gewichtetes arithmetische Mittel</a></h2>
+<ul>
+<li>Wird bei <code>primären Häufigkeitstabellen verwendet</code></li>
+</ul>
+<p>K = Anzahl der unterschiedlichen Kategorien</p>
+<p>n = Anzahl der gültigen Fälle</p>
+<p>fk = Häufigkeit in der Kategorie k</p>
+<p>\[
+x = \frac{1}{n}\sum_{k=1} fk * k
+\]</p>
+<h2 id="arithmetischer-mittelwert-bei-sekundären-häufigkeitstabellen"><a class="header" href="#arithmetischer-mittelwert-bei-sekundären-häufigkeitstabellen">Arithmetischer Mittelwert bei sekundären Häufigkeitstabellen</a></h2>
+<p>Lässt sich nur ungefähr berechnen, da bei <code>der Intervallbildung bereits Informationen verloren gehen</code>.</p>
+<p>K = Anzahl der Intervalle
+Mk = Mittelpunkt des Intervalls k
+fk = Anzahl Fälle im Intervall k</p>
+<p>\[
+\bar{x} \approx \frac{1}{n} \sum_{k=1} fk* Mk
+\]</p>
+<p>Hieraus kann auch wieder n abgeleitet werden:</p>
+<p>\[
+\sum_{k=1}fk = n
+\]</p>
+<h2 id="modalwert"><a class="header" href="#modalwert">Modalwert</a></h2>
+<ul>
+<li>Wird bei <code>Nominalskalen</code> verwendet </li>
+<li>Hat aber in der Forschung <code>keine praktische Bedeutung</code>, da er nur den <code>häufigsten Wert beschreibt und die Umgebung ausser Acht lässt</code>.</li>
+</ul>
+<h2 id="spannweite--variationsbreite"><a class="header" href="#spannweite--variationsbreite">Spannweite / Variationsbreite</a></h2>
+<ul>
+<li>Ist die Differenz wischen dem kleinsten und dem grössten Wert</li>
+<li>Gibt Auskunft über die Verteilung zwischen den Extremwerten</li>
+<li>Ist anfällig für Ausreisser</li>
+</ul>
+<p>\[
+R = x_{max} - x_{min}
+\]</p>
+<h2 id="quartilabstand"><a class="header" href="#quartilabstand">Quartilabstand</a></h2>
+<ul>
+<li><code>Geordnete Messwertreihe</code> wird in <code>vier gleich grosse Teile</code> aufgeteilt (Q1 - Q4)</li>
+<li>Zwischen den Quantilen Q3 und Q1 iegen <code>50% der Fälle</code></li>
+</ul>
+<p>\[
+QA = Q_3 - Q_1
+\]</p>
+<h2 id="varianz"><a class="header" href="#varianz">Varianz</a></h2>
+<ul>
+<li>Berechnet sich <code>aus allen Einzelwerten und Beschreibt somit die gesamte Variabilität der Werte</code></li>
+<li>Die Varianz ist die Summe der Abweichungsquadrate vom Mittelwert dividiert durch die Anzahl der Fälle</li>
+</ul>
+<p>\[
+s^2 = \frac{1}{n} \sum_{i=1}(xi-\bar{x})^2
+\]</p>
+<h2 id="standardabweichung"><a class="header" href="#standardabweichung">Standardabweichung</a></h2>
+<ul>
+<li>Berechnet sich aus der Wurzel der Varianz</li>
+<li>Es resultiert eine Grösse in der Ursprünglichen Einheit</li>
+</ul>
+<p>\[
+s = \sqrt{s^2} = \sqrt{\frac{1}{n} \sum_{i=1} (xi - \bar{x})^2}
+\]</p>
+<h2 id="z-wert"><a class="header" href="#z-wert">Z-Wert</a></h2>
+<ul>
+<li>Damit kann beurteilt werden, wo in der <code>Verteilung die Werte liegen</code></li>
+<li>Der Z-Wert kann anschliessend in eine Wertetabelle eingegeben werden: <a href="http://eswf.uni-koeln.de/glossar/zvert.htm">Link</a>. Anschliessend weiss man <code>wie viel Prozent als unter dem Mittelwert liegen</code></li>
+</ul>
+<p>\[
+z = \frac{x - \bar{x}}{s}
+\]</p>
+<h2 id="tatsächlicher-wert"><a class="header" href="#tatsächlicher-wert">Tatsächlicher Wert</a></h2>
+<p>Um den tatsächlichen Wert zu berechnen muss der z-Wert (abhängig vom Alpha Niveau) mit dem Standardfehler multipliziert werden. <code>Bei einem Alpha Niveau von 5% ist der z-Wert 1.96</code>.</p>
+<h2 id="itemschwierigkeit"><a class="header" href="#itemschwierigkeit">Itemschwierigkeit</a></h2>
+<p>Pi beschreibt die Itemschwierigkeit, d.h. Pi = 0 bedeutet, dass keine Person die Aufgabe lösen konnte</p>
+<ul>
+<li>Eine Faustregel ist, dass die <code>Schwierigkeit der Items zwischen 20 und 80 liegen sollte</code></li>
+</ul>
+<p>\[
+P_i = \frac{\bar{x}_i - min(x_i)}{max(x_i) - min(x_i)} * 100 
+\]</p>
+<h3 id="wenn-minimumwert--0"><a class="header" href="#wenn-minimumwert--0">Wenn Minimumwert = 0</a></h3>
+<p>\[
+P_i = \frac{\bar{x}_i}{max(x_i)} * 100
+\]</p>
+<h2 id="reliabilität"><a class="header" href="#reliabilität">Reliabilität</a></h2>
+<p>\[
+r_{tt} = \frac{\sigma^2(x) - \sigma^2(\epsilon)}{\sigma^2(x)}
+\]</p>
+<h2 id="standardfehler"><a class="header" href="#standardfehler">Standardfehler</a></h2>
+<p>\[
+\sigma_{\bar{x}} = \sqrt{\frac{\sigma^2}{n}}
+\]</p>
+<p>Anders umgeformt ergibt sich für den Standardfehler</p>
+<p>\[
+SE = \frac{s}{\sqrt{n}}
+\]</p>
+<h3 id="ermittlung-populationsvarianz-falls-nicht-bekannt"><a class="header" href="#ermittlung-populationsvarianz-falls-nicht-bekannt">Ermittlung Populationsvarianz (falls nicht bekannt)</a></h3>
+<p>\[
+\sigma^2 = \frac{s^2n}{n-1}
+\]</p>
+<h2 id="konfidenzintervall"><a class="header" href="#konfidenzintervall">Konfidenzintervall</a></h2>
+<p>Standardfehler muss mit dem z-Wert der Grenze multipliziert werden.
+Beispiel 90% Intervall (pro Seite entfallen dann jeweils 5% der Stichprobenmittelwerte):</p>
+<p>\[
+Links = (-z_{90\%} \sigma\bar{x})
+\]</p>
+<p>\[
+Rechts = (+z_{90\%} \sigma\bar{x})
+\]</p>
+<h2 id="anzahl-gruppenvergleiche"><a class="header" href="#anzahl-gruppenvergleiche">Anzahl Gruppenvergleiche</a></h2>
+<p>K = Anzahl der Kategorien des Prädikators</p>
+<p>\[
+\frac{1}{2}K^2 - \frac{1}{2}K
+\]</p>
+<p>Beispiel: Überprüfung ob sich die Leistung von Maturanden in der Basisprüfung in 62 Kantonsschulen unterscheidet:</p>
+<p>\[
+\frac{1}{2}62^2 - \frac{1}{2}62 = 1891
+\]</p>
+<h2 id="mean-square-berechnen-tukey-test"><a class="header" href="#mean-square-berechnen-tukey-test">Mean Square berechnen (Tukey Test)</a></h2>
+<p>Sum of Squares (SS) dividiert durch Anzahl Freiheitsgrade (df) </p>
+<h2 id="relative-position"><a class="header" href="#relative-position">Relative Position</a></h2>
+<p>\[
+\sum_{i=1}(x_i - \mu_x)(y_i - \mu_y)
+\]</p>
+<h2 id="geradengleichung"><a class="header" href="#geradengleichung">Geradengleichung</a></h2>
+<p>b0 = Achsenabschnitt (Schnittpunkt der Gerade mit Y-Achse)</p>
+<p>b1 = Steigung der Geraden</p>
+<p>\[
+Y = b_0 + b_1X
+\]</p>
+<h2 id="kleinste-quadrate"><a class="header" href="#kleinste-quadrate">Kleinste Quadrate</a></h2>
+<p>Die Grundformel für die Methode der kleinsten Quadrate ist:
+\[
+\sum e_i = \sum (y_i - \bar{y_i})
+\]</p>
+<p>Ersetzt man jedoch \( \bar{y_i}\) durch die Geradengleichung erhält man eine neue Formel. Die Formel bekommt ihren Namen, weil <code>nicht die Abweichungen sondern die quadrierten Abweichungen minimiert werden</code>.</p>
+<p>\[
+\sum e_i^2 = \sum (y_i - (b_0 + b_1*x_i))^2 = min 
+\]</p>
+<h2 id="standardisierte-z-werte"><a class="header" href="#standardisierte-z-werte">Standardisierte Z-Werte</a></h2>
+<p>\[
+\beta_i = b_i \frac{s_{xi}}{s_y}
+\]</p>
+<h2 id="bestimmheitsmasse--r2"><a class="header" href="#bestimmheitsmasse--r2">Bestimmheitsmasse \( R^2))</a></h2>
+<p>SSreg = Sum of Squares of Regression</p>
+<p>SStot = Sum of Squares total</p>
+<p>\[
+R^2 = \frac{SS_{reg}}{SS_{tot}}
+\]</p>
+<h2 id="effekgrösse"><a class="header" href="#effekgrösse">Effekgrösse</a></h2>
+<ul>
+<li>0.2 = kleiner Effekt</li>
+<li>0.5 = mittlerer Effekt</li>
+<li>0.8 = grosser Effekt</li>
+</ul>
+<p>\[
+\epsilon = \frac{\bar{x}_A - \bar{x}_B}{s}
+\]</p>
+<h2 id="chi-quadrat"><a class="header" href="#chi-quadrat">Chi-Quadrat</a></h2>
+<p>Bei einem Chi-Quadrat Test ist die Grundlage eine <code>Vierfeldertafel</code></p>
+<p><img src="./images/chi-square-table.png" alt="Vierfeldertafel" /></p>
+<p>\[
+\chi^2 = \frac{N(ad - bc)^2}{ABCD}
+\]</p>
+<p>Wichtig die <code>Anzahl der Freiheitsgrade hängt davon ab wie viele Zellen frei varriieren können</code>
+Der kritische Wert kann aus der Tabelle abgelesen werden mit alpha Wert von 5% und der Anzahl der Freiheitsgrade.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="quantitative_methods_scales.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="quantitative_methods_spss.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="quantitative_methods_scales.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="quantitative_methods_spss.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

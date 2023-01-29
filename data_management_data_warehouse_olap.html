@@ -1,0 +1,317 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Data Warehouse und OLAP - FHGR Msc UX Summaries</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/catppuccin-highlight.css">
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="human_computer_interaction.html"><strong aria-hidden="true">1.</strong> Human Computer Interaction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="hci_faq.html"><strong aria-hidden="true">1.1.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="history_of_hci.html"><strong aria-hidden="true">1.2.</strong> Geschichte von HCI</a></li><li class="chapter-item expanded "><a href="fields_of_hci.html"><strong aria-hidden="true">1.3.</strong> Forschungsgebiete von HCI</a></li><li class="chapter-item expanded "><a href="ux_process_and_lifecycle.html"><strong aria-hidden="true">1.4.</strong> UX Prozess und Lifecycle</a></li><li class="chapter-item expanded "><a href="user_research.html"><strong aria-hidden="true">1.5.</strong> Nutzerforschung</a></li><li class="chapter-item expanded "><a href="system_complexity_project_parameters.html"><strong aria-hidden="true">1.6.</strong> Systemkomplexität und Projekt Parameter</a></li><li class="chapter-item expanded "><a href="affinity_diagrams_personas_scenarios.html"><strong aria-hidden="true">1.7.</strong> Affinity Diagramme, Personas und Szenarien</a></li><li class="chapter-item expanded "><a href="interaction_design.html"><strong aria-hidden="true">1.8.</strong> Interaction Design</a></li><li class="chapter-item expanded "><a href="user_experience_evaluation.html"><strong aria-hidden="true">1.9.</strong> User Experience Evaluation</a></li><li class="chapter-item expanded "><a href="hci_possible_exam_questions.html"><strong aria-hidden="true">1.10.</strong> Mögliche Prüfungsfragen</a></li></ol></li><li class="chapter-item expanded "><a href="research_design_and_qualitative_methods.html"><strong aria-hidden="true">2.</strong> Research Design and Qualitative Methods</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="research_process.html"><strong aria-hidden="true">2.1.</strong> Forschungsprozess</a></li><li class="chapter-item expanded "><a href="literature_review_reading_techniques.html"><strong aria-hidden="true">2.2.</strong> Literature Review und Lesetechniken</a></li><li class="chapter-item expanded "><a href="define_terms.html"><strong aria-hidden="true">2.3.</strong> Begriffe definieren</a></li><li class="chapter-item expanded "><a href="research_question_and_hypothesis.html"><strong aria-hidden="true">2.4.</strong> Forschungsfrage und Hypothesen</a></li><li class="chapter-item expanded "><a href="operationalisation_scales.html"><strong aria-hidden="true">2.5.</strong> Operationalisierung und Skalenbildung</a></li><li class="chapter-item expanded "><a href="research_design.html"><strong aria-hidden="true">2.6.</strong> Forschungsdesign</a></li><li class="chapter-item expanded "><a href="quantitativ_content_analysis.html"><strong aria-hidden="true">2.7.</strong> Quantitative Inhaltsanalyse</a></li><li class="chapter-item expanded "><a href="expert_reviews.html"><strong aria-hidden="true">2.8.</strong> Leitfaden und Experteninterviews</a></li><li class="chapter-item expanded "><a href="group_discussion.html"><strong aria-hidden="true">2.9.</strong> Gruppendiskussion</a></li><li class="chapter-item expanded "><a href="qualitative_content_analysis.html"><strong aria-hidden="true">2.10.</strong> Qualitative Inhaltsanalyse</a></li><li class="chapter-item expanded "><a href="case_study.html"><strong aria-hidden="true">2.11.</strong> Fallstudie</a></li></ol></li><li class="chapter-item expanded "><a href="data_management.html"><strong aria-hidden="true">3.</strong> Data Management</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="data_management_introduction.html"><strong aria-hidden="true">3.1.</strong> Einführung</a></li><li class="chapter-item expanded "><a href="data_management_data_representation.html"><strong aria-hidden="true">3.2.</strong> Erhebungen und deren Datenrepräsentation</a></li><li class="chapter-item expanded "><a href="data_management_document_management.html"><strong aria-hidden="true">3.3.</strong> Dokumentenamangement</a></li><li class="chapter-item expanded "><a href="data_management_data_analysis.html"><strong aria-hidden="true">3.4.</strong> Datenanalyse</a></li><li class="chapter-item expanded "><a href="data_management_data_mining.html"><strong aria-hidden="true">3.5.</strong> Data-Mining Grundprinzipien</a></li><li class="chapter-item expanded "><a href="data_management_data_warehouse_olap.html" class="active"><strong aria-hidden="true">3.6.</strong> Data Warehouse und OLAP</a></li><li class="chapter-item expanded "><a href="data_management_possible_exercises.html"><strong aria-hidden="true">3.7.</strong> Mögliche Aufgaben</a></li></ol></li><li class="chapter-item expanded "><a href="quantitative_methods.html"><strong aria-hidden="true">4.</strong> Quantitative Methods</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quantitative_methods_faq.html"><strong aria-hidden="true">4.1.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="quantitative_methods_scales.html"><strong aria-hidden="true">4.2.</strong> Skalen</a></li><li class="chapter-item expanded "><a href="quantitative_methods_formulas.html"><strong aria-hidden="true">4.3.</strong> Formeln</a></li><li class="chapter-item expanded "><a href="quantitative_methods_spss.html"><strong aria-hidden="true">4.4.</strong> SPPS Cheatsheet</a></li><li class="chapter-item expanded "><a href="quantitative_methods_exercises.html"><strong aria-hidden="true">4.5.</strong> Mögliche Aufgaben</a></li><li class="chapter-item expanded "><a href="quantitative_methods_andy_field.html"><strong aria-hidden="true">4.6.</strong> Entscheidungsmatrix Andy Field</a></li></ol></li><li class="chapter-item expanded "><a href="explorative_data_analytics.html"><strong aria-hidden="true">5.</strong> Explorative Data Analytics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="explorative_data_analytics_exercises.html"><strong aria-hidden="true">5.1.</strong> Mögliche Aufgaben</a></li></ol></li><li class="chapter-item expanded "><a href="web_data_analytics.html"><strong aria-hidden="true">6.</strong> Web Data Analytics</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">FHGR Msc UX Summaries</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="data-warehouse-und-olap"><a class="header" href="#data-warehouse-und-olap">Data Warehouse und OLAP</a></h1>
+<h2 id="datenmanagementplan"><a class="header" href="#datenmanagementplan">Datenmanagementplan</a></h2>
+<p>Der Datenmanagementplan ist die <code>Grundlage für den Umgang mit Daten</code> sowie <code>dokumentierte Anpassungen im Projektverlauf</code>.
+Er <code>zwingt Personen</code> zudem sich mid den <code>Daten</code> und dem <code>Life-Cycle</code> zu beschäftigen und ist ein <code>Dokument zur Sicherstellung und Einhaltung des Datenschutzes</code></p>
+<p>Der Datenmanagementplan <code>ist bei Forschungsförderungen oft Vorraussetzung</code> und ist zudem wichtig für die <code>Einschätzung von Ressourcen, Datenschutz und Nachhaltigkeit</code>.
+Der Datenmanagementplan sollte zudem <code>mit dem Data-Life-Cylce und den FAIR Principles zusammenspielen</code>.</p>
+<h3 id="inhalte"><a class="header" href="#inhalte">Inhalte</a></h3>
+<ul>
+<li>Planning</li>
+<li>Data collection and creation</li>
+<li>Appraisal and selection</li>
+<li>Documentation and metadata</li>
+<li>File formats</li>
+<li>Storage</li>
+<li>Ethics</li>
+<li>Copyright and intellectual property</li>
+<li>Sharing</li>
+<li>Long term management</li>
+</ul>
+<h2 id="data-warehouse"><a class="header" href="#data-warehouse">Data Warehouse</a></h2>
+<p>Eines der Hauptprobleme sind <code>verteilte Datenbestände</code>, Abfragen über <code>über mehrere Datenbanken sind kompliziert</code> und <code>Redundanzen werden nicht vermieden</code>.
+Bei <code>zentralen Datenbanken</code> besteht ein <code>hoher Harmonisierungsbedarf</code> sowie <code>hoher Aufwand bei der Abfrage</code>.
+Datenbanken <code>sind gut zur Speicherung strukturierter Daten, nicht für Analyseabfragen geeignet</code>, hier setzen Data Warehouses an.</p>
+<p>Ein Data Warehouse ist eine <code>themenorientierte, dauerhafte Sammlung von Informationen zur Entscheidungsunterstützung</code>.</p>
+<h3 id="data-warehousing"><a class="header" href="#data-warehousing">Data Warehousing</a></h3>
+<p>Prozess von der Datenbeschaffung über die Speicherung bis hin zur Analyse.</p>
+<h3 id="oltp-online-transactional-processing"><a class="header" href="#oltp-online-transactional-processing">OLTP (Online Transactional Processing)</a></h3>
+<p>OLTP basiert auf dem <code>Datenbank Ansatz</code> und hat folgende Eigenschaften:</p>
+<ul>
+<li>Einfache Abfragestruktur</li>
+<li>Kurze Lese/Schreibtransaktionen</li>
+<li>Meist eine Datenquelle</li>
+<li>Einzeltupelzugriff</li>
+</ul>
+<h3 id="datenwürfel"><a class="header" href="#datenwürfel">Datenwürfel</a></h3>
+<p>Dimensionen und Kennzahlen, Data Mart als &quot;Sicht&quot; aus dem Datenwürfel. Die <code>Kanten des Würfels stellen hierbei eine bestimmte Dimension (Produkt, Zeit, Verkaufsort) dar.</code>
+2 Dimensionen können in einer Tabelle dargestellt werden, <code>ab 3 Dimensionen braucht es einen Datenwürfel</code>.</p>
+<h3 id="data-mart"><a class="header" href="#data-mart">Data Mart</a></h3>
+<p>Sichten (extra gespeicherte Ausschnitte) aus dem Data Warehouse.</p>
+<h3 id="olap-online-analytical-processing"><a class="header" href="#olap-online-analytical-processing">OLAP (Online Analytical Processing)</a></h3>
+<p>OLAP basiert auf dem <code>Data Warehouse Ansatz</code> und ist die <code>erforschende und interaktive Analyse auf Basis des Datenwürfels</code>.</p>
+<ul>
+<li>Analyse von Daten, Reporting</li>
+<li>Komplexe Abfragestrukturen</li>
+<li>Lange Lesetransaktionen</li>
+<li>Meist mehrere Datenquellen</li>
+</ul>
+<p>OLAP sollten <code>Anforderungen gemäss dem FASMI (Fast Analysis on Shared Multidimension Information) unterstützen</code>:</p>
+<ul>
+<li>Fast - Kurze Antwortzeiten</li>
+<li>Analysis - Adäquate Schnittstellen</li>
+<li>Shared - mehrere Nutzer</li>
+<li>Multidimensional - multidimensionale Modelle</li>
+<li>Information - vollständige Informationsbereitstellung inkl. Metadaten</li>
+</ul>
+<h3 id="data-mart-1"><a class="header" href="#data-mart-1">Data Mart</a></h3>
+<p>Sichten (extra gespeicherte Ausschnitte) aus dem Data Warehouse für einen <code>bestimmten Zweck</code>.
+Für einen Data Mart sprechen viele <code>Gründe</code>:</p>
+<ul>
+<li>Eigenständigkeit - Daten spezifisch für einen bestimmten Geschäftsbereich</li>
+<li>Datenschutz - Nur bestimmte Gruppen dürfen die Daten sehen</li>
+<li>Lastverteilung - Weniger Belastung des Gesamtsystems, da viele dedizierte Data Marts</li>
+<li>Datenvolumen - Data Marts können aufgrund von spezifischen Informationen schneller und effizienter die Daten verarbeiten</li>
+<li>Mobiler Zugang - Kleinere Strukturen können auch auf mobilen Endgeräten genutzt werden</li>
+</ul>
+<h3 id="anforderungen-an-das-data-warehouse"><a class="header" href="#anforderungen-an-das-data-warehouse">Anforderungen an das Data Warehouse</a></h3>
+<ul>
+<li>Unabhängigkeit zwischen Datenquellen und Analsesystem</li>
+<li>Dauerhafte Bereitstellung integrierter und abgeleiteter Daten</li>
+<li>Automatisierung von Abläufen</li>
+<li>Erweiterabrkeit (neue Datenquellen)</li>
+<li>Eindeutigkeit über Datenstruktur, Zugriffsberechtigungen und Prozesse</li>
+</ul>
+<h3 id="schemas"><a class="header" href="#schemas">Schemas</a></h3>
+<p>Für ein Data Warehouse können unterschiedliche Schemas verwendet werden:</p>
+<ul>
+<li>Snowflake Schema - <code>Eine Dimension wird in mehreren Tabellen dargestellt</code>, welche über Schlüssel miteinander verbunden werden; Vermeidung von Redundanzen bei aufwendiger Abfragestruktur</li>
+<li>Star-Schema - <code>Eine Dimension wird genau in einer Tabelle dargestellt</code>, die Tabellen befinden sich lediglich <code>in der 1. Normalform</code>, d.h. <code>keine Vermeidung von Redundanzen aber schnellere Abfragestruktur</code></li>
+</ul>
+<h2 id="datensicherheit"><a class="header" href="#datensicherheit">Datensicherheit</a></h2>
+<h3 id="bedrohungen"><a class="header" href="#bedrohungen">Bedrohungen</a></h3>
+<p>Bedrohungen können in Unterschiedliche <code>Kategorien eingeteilt werden</code>:</p>
+<ul>
+<li>Schwachstelle - Schwäche eines Systems, bzw. <code>verwundbarer Punkt</code></li>
+<li>Verwundbarkeit - Schwachstelle über welche <code>die Sicherheitsdienste des Systems umgangen werden können</code></li>
+<li>Bedrohung - Gezielte Ausnutzung <code>einer oder mehrerer Schachstellen oder Verwundbarkeiten um Datenverlust etc. zu erreichen</code></li>
+<li>Risiko - <code>Wahrscheinlichkeit</code> mit welcher ein <code>Schadensereigniss eintreten kann</code></li>
+</ul>
+<h3 id="gefährdungsfaktoren"><a class="header" href="#gefährdungsfaktoren">Gefährdungsfaktoren</a></h3>
+<ul>
+<li>Höhere Gewalt - Blitzschlag, Feuer, Erdbeben</li>
+<li>Fahrlässigkeit - Irrtum, Fehlbedienung</li>
+<li>Vorsatz - Manipulation, Einbruch</li>
+<li>technisches Versagen - Stromausfall, Fehlfunktionen</li>
+<li>organisatorische Mängel - unberechtigter Zugriff, Raubkopie</li>
+</ul>
+<h2 id="sicherheit"><a class="header" href="#sicherheit">Sicherheit</a></h2>
+<p>Der Begriff Sicherheit lässt sich auf verschiedene Arten anwenden:</p>
+<ul>
+<li>Funktionssicherheit - <code>Ist-Funktionalität stimmt mit Soll-Funktionalität überein</code>, d.h. das System tut immer was es soll</li>
+<li>Informationssicherheit - Dient dem <code>Schutz vor Gefahren bzw. Bedrohungen</code></li>
+<li>Datensicherheit - System soll nur Zustände annehmen, welche nicht eine <code>unauthorisierten Zugriff auf Systemressourcen und Daten beinhalten</code></li>
+<li>Datenschutz - Datenschutz <code>ist nicht der Schutz der Daten</code> sondern das <code>Recht auf informationelle Selbstbestimmung</code></li>
+<li>Zuverlässigkeit - System stellt sicher dass die spezifizierten Funktionen <code>zuverlässig erbracht werden</code></li>
+</ul>
+<h2 id="schutzziele"><a class="header" href="#schutzziele">Schutzziele</a></h2>
+<p>Schutzziele sind die <code>zentralen Anforderungen beim Betrieb von sicheren Rechensystemen</code>.</p>
+<h3 id="authentizität"><a class="header" href="#authentizität">Authentizität</a></h3>
+<p>Personen müssen <code>eindeutig einer Identität zuzuordnen sein</code>. Dies kann durch Eigenschaften wie einem <code>Fingerabdruck</code> sichergestellt werden.</p>
+<h3 id="authorisation"><a class="header" href="#authorisation">Authorisation</a></h3>
+<p>Authorisation = Authentifizierung + Berechtigung</p>
+<h3 id="datenintegrität"><a class="header" href="#datenintegrität">Datenintegrität</a></h3>
+<p>Verhinderung der unauthorisierten und <code>unbemerkten Veränderung von Daten und Ressourcen</code>. Dies wird sichergestellt indem <code>unauthorisierte Schreibzugriffe sowie Integritätsverletzungen erkannt werden (bspw. via Checksumme)</code>.</p>
+<p>Eine Verletzung ist möglich durch:</p>
+<ul>
+<li>unautorisierte Personen (Angriff von aussen)</li>
+<li>autorisierte Personen (Angriff von innen)</li>
+</ul>
+<h3 id="vertraulichkeit"><a class="header" href="#vertraulichkeit">Vertraulichkeit</a></h3>
+<p><code>Verbergen von Daten</code>, d.h. nur die berechtigten Personen haben Zugriff. Wird durch <code>Ver- und Entschlüsselung sowie Zugriffskontrollen sichergestellt</code></p>
+<h3 id="verfügbarkeit"><a class="header" href="#verfügbarkeit">Verfügbarkeit</a></h3>
+<p>Ist gewährleistet, wenn <code>authorisierte Personen in der Wahrnehmung nicht unautorisiert beeinträchtig werden</code>.
+Beispiele hierfür sind Stromausfälle, Malware etc.</p>
+<h3 id="verbindlichkeit"><a class="header" href="#verbindlichkeit">Verbindlichkeit</a></h3>
+<p><code>Kein unzulässiges Abstreiten druchgeführter Handlungen im Nachhinein</code>, d.h. Handlungen können eindeutig an Personen zugewiesen werden (Protokollierung von Benutzeraktionen).</p>
+<h3 id="anonymität"><a class="header" href="#anonymität">Anonymität</a></h3>
+<p><code>Durchführen von Handlungen ohne Preisgabe der Identität</code>, dies kann mit folgenden Mitteln erreicht werden:</p>
+<ul>
+<li>Anonymisierung - Veränderung der Daten sodass ein Rekonstruieren nur mit übermässig hohem Aufwand möglich ist</li>
+<li>Pseudonimisierung - Einzelangaben können nicht mehr natürlichen Personen zugeordnet werden</li>
+</ul>
+<h3 id="vertrauen"><a class="header" href="#vertrauen">Vertrauen</a></h3>
+<p>Ist <code>kein klassisches Schutzziel</code> man ist jedoch von der <code>Verlässlichkeit und der Zuverlässigkeit einer Person überzeugt</code>, d.h. sehr subjektiv.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="data_management_data_mining.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="data_management_possible_exercises.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="data_management_data_mining.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="data_management_possible_exercises.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

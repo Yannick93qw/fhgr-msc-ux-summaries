@@ -1,0 +1,418 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Quantitative Methods - FHGR Msc UX Summaries</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/catppuccin-highlight.css">
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="human_computer_interaction.html"><strong aria-hidden="true">1.</strong> Human Computer Interaction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="hci_faq.html"><strong aria-hidden="true">1.1.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="history_of_hci.html"><strong aria-hidden="true">1.2.</strong> Geschichte von HCI</a></li><li class="chapter-item expanded "><a href="fields_of_hci.html"><strong aria-hidden="true">1.3.</strong> Forschungsgebiete von HCI</a></li><li class="chapter-item expanded "><a href="ux_process_and_lifecycle.html"><strong aria-hidden="true">1.4.</strong> UX Prozess und Lifecycle</a></li><li class="chapter-item expanded "><a href="user_research.html"><strong aria-hidden="true">1.5.</strong> Nutzerforschung</a></li><li class="chapter-item expanded "><a href="system_complexity_project_parameters.html"><strong aria-hidden="true">1.6.</strong> Systemkomplexität und Projekt Parameter</a></li><li class="chapter-item expanded "><a href="affinity_diagrams_personas_scenarios.html"><strong aria-hidden="true">1.7.</strong> Affinity Diagramme, Personas und Szenarien</a></li><li class="chapter-item expanded "><a href="interaction_design.html"><strong aria-hidden="true">1.8.</strong> Interaction Design</a></li><li class="chapter-item expanded "><a href="user_experience_evaluation.html"><strong aria-hidden="true">1.9.</strong> User Experience Evaluation</a></li><li class="chapter-item expanded "><a href="hci_possible_exam_questions.html"><strong aria-hidden="true">1.10.</strong> Mögliche Prüfungsfragen</a></li></ol></li><li class="chapter-item expanded "><a href="research_design_and_qualitative_methods.html"><strong aria-hidden="true">2.</strong> Research Design and Qualitative Methods</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="research_process.html"><strong aria-hidden="true">2.1.</strong> Forschungsprozess</a></li><li class="chapter-item expanded "><a href="literature_review_reading_techniques.html"><strong aria-hidden="true">2.2.</strong> Literature Review und Lesetechniken</a></li><li class="chapter-item expanded "><a href="define_terms.html"><strong aria-hidden="true">2.3.</strong> Begriffe definieren</a></li><li class="chapter-item expanded "><a href="research_question_and_hypothesis.html"><strong aria-hidden="true">2.4.</strong> Forschungsfrage und Hypothesen</a></li><li class="chapter-item expanded "><a href="operationalisation_scales.html"><strong aria-hidden="true">2.5.</strong> Operationalisierung und Skalenbildung</a></li><li class="chapter-item expanded "><a href="research_design.html"><strong aria-hidden="true">2.6.</strong> Forschungsdesign</a></li><li class="chapter-item expanded "><a href="quantitativ_content_analysis.html"><strong aria-hidden="true">2.7.</strong> Quantitative Inhaltsanalyse</a></li><li class="chapter-item expanded "><a href="expert_reviews.html"><strong aria-hidden="true">2.8.</strong> Leitfaden und Experteninterviews</a></li><li class="chapter-item expanded "><a href="group_discussion.html"><strong aria-hidden="true">2.9.</strong> Gruppendiskussion</a></li><li class="chapter-item expanded "><a href="qualitative_content_analysis.html"><strong aria-hidden="true">2.10.</strong> Qualitative Inhaltsanalyse</a></li><li class="chapter-item expanded "><a href="case_study.html"><strong aria-hidden="true">2.11.</strong> Fallstudie</a></li></ol></li><li class="chapter-item expanded "><a href="data_management.html"><strong aria-hidden="true">3.</strong> Data Management</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="data_management_introduction.html"><strong aria-hidden="true">3.1.</strong> Einführung</a></li><li class="chapter-item expanded "><a href="data_management_data_representation.html"><strong aria-hidden="true">3.2.</strong> Erhebungen und deren Datenrepräsentation</a></li><li class="chapter-item expanded "><a href="data_management_document_management.html"><strong aria-hidden="true">3.3.</strong> Dokumentenamangement</a></li><li class="chapter-item expanded "><a href="data_management_data_analysis.html"><strong aria-hidden="true">3.4.</strong> Datenanalyse</a></li><li class="chapter-item expanded "><a href="data_management_data_mining.html"><strong aria-hidden="true">3.5.</strong> Data-Mining Grundprinzipien</a></li><li class="chapter-item expanded "><a href="data_management_data_warehouse_olap.html"><strong aria-hidden="true">3.6.</strong> Data Warehouse und OLAP</a></li><li class="chapter-item expanded "><a href="data_management_possible_exercises.html"><strong aria-hidden="true">3.7.</strong> Mögliche Aufgaben</a></li></ol></li><li class="chapter-item expanded "><a href="quantitative_methods.html" class="active"><strong aria-hidden="true">4.</strong> Quantitative Methods</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quantitative_methods_faq.html"><strong aria-hidden="true">4.1.</strong> FAQ</a></li><li class="chapter-item expanded "><a href="quantitative_methods_scales.html"><strong aria-hidden="true">4.2.</strong> Skalen</a></li><li class="chapter-item expanded "><a href="quantitative_methods_formulas.html"><strong aria-hidden="true">4.3.</strong> Formeln</a></li><li class="chapter-item expanded "><a href="quantitative_methods_spss.html"><strong aria-hidden="true">4.4.</strong> SPPS Cheatsheet</a></li><li class="chapter-item expanded "><a href="quantitative_methods_exercises.html"><strong aria-hidden="true">4.5.</strong> Mögliche Aufgaben</a></li><li class="chapter-item expanded "><a href="quantitative_methods_andy_field.html"><strong aria-hidden="true">4.6.</strong> Entscheidungsmatrix Andy Field</a></li></ol></li><li class="chapter-item expanded "><a href="explorative_data_analytics.html"><strong aria-hidden="true">5.</strong> Explorative Data Analytics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="explorative_data_analytics_exercises.html"><strong aria-hidden="true">5.1.</strong> Mögliche Aufgaben</a></li></ol></li><li class="chapter-item expanded "><a href="web_data_analytics.html"><strong aria-hidden="true">6.</strong> Web Data Analytics</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">FHGR Msc UX Summaries</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="quantiative-methods"><a class="header" href="#quantiative-methods">Quantiative Methods</a></h1>
+<h2 id="begriffsdefinitionen"><a class="header" href="#begriffsdefinitionen">Begriffsdefinitionen</a></h2>
+<h3 id="item"><a class="header" href="#item">Item</a></h3>
+<blockquote>
+<p>Fragen, Meinungen und Aussagen in einem Test</p>
+</blockquote>
+<h3 id="skala"><a class="header" href="#skala">Skala</a></h3>
+<blockquote>
+<p>Eine Zusammenfassung von mehreren Einzelitems zu einem Gesamtkonstrukt. Wird verwendet um mehrere Variablenwerte zu einem Skalenwert zusammenzufassen. Deshalb sind Skalen auch <code>wesentlich robuster gegen Fehler als Werte von Einzelitems</code></p>
+</blockquote>
+<h3 id="manifeste-variablen"><a class="header" href="#manifeste-variablen">Manifeste Variablen</a></h3>
+<blockquote>
+<p>Sind Variablen, welche direkt messbar und beobachtbar sind</p>
+</blockquote>
+<h3 id="latente-variablen"><a class="header" href="#latente-variablen">Latente Variablen</a></h3>
+<blockquote>
+<p>Sind nicht direkt Messbar und werden über <code>manifeste Variablen erschlossen</code></p>
+</blockquote>
+<h3 id="primäre-häufigkeitstabellen"><a class="header" href="#primäre-häufigkeitstabellen">Primäre Häufigkeitstabellen</a></h3>
+<blockquote>
+<p>Stellt die <code>Verteilung eines Merkmals dar</code> und gibt Aufschluss darüber, wie <code>häufig eine Ausprägung vorkommt</code></p>
+</blockquote>
+<h3 id="sekundäre-häufigkeitstabellen"><a class="header" href="#sekundäre-häufigkeitstabellen">Sekundäre Häufigkeitstabellen</a></h3>
+<blockquote>
+<p>Es werden Merkmalsausprägungen <code>zu Intervallen zusammengefasst</code>, dies funktioniert <code>aber nur bei metrischen Variablen</code></p>
+</blockquote>
+<h3 id="histogramme"><a class="header" href="#histogramme">Histogramme</a></h3>
+<blockquote>
+<p>Stellt die Häufigkeiten oder die prozentualen Häufigkeiten graphisch anschaulich als Säulen dar. Hierbei muss die Y-Skala immer mit 0 beginnen und Säulen dürfen nicht unterbrochen oder verkürzt sein.</p>
+</blockquote>
+<h3 id="kreisdiagramme"><a class="header" href="#kreisdiagramme">Kreisdiagramme</a></h3>
+<blockquote>
+<p>Stelt die Häufigkeiten graphisch als Kreisauschnitt dar, wie beim Histogramm kann es auch hier <code>einen Ausschnitt für fehlende Werte</code> geben. Achtung <code>das Kreisdiagramm sollte für Nominalskalen verwendet werden</code></p>
+</blockquote>
+<h3 id="polygonzug"><a class="header" href="#polygonzug">Polygonzug</a></h3>
+<blockquote>
+<p>Über Säulen wird eine Linie gezogen (jeweils vom Säulenmittelpunkt aus). Achtung <code>Polygonzüge dürfen nur bei metrischen Variablen verwendet werden</code>.</p>
+</blockquote>
+<h3 id="streuungsmasse"><a class="header" href="#streuungsmasse">Streuungsmasse</a></h3>
+<blockquote>
+<p>Sind erst ab <code>ordinalem Skalenniveau sinnvoll</code>. Beispiele hierfür sind <code>Spannweiten, Quartilsabstände, Standardabweichung und Varianz (bei metrischem Skalenniveau)</code></p>
+</blockquote>
+<h3 id="durchschnittliche-abweichung-der-beträge-vom-mittelwert"><a class="header" href="#durchschnittliche-abweichung-der-beträge-vom-mittelwert">Durchschnittliche Abweichung der Beträge vom Mittelwert</a></h3>
+<blockquote>
+<p>Gibt Auskunft über die Dispersion, <code>sagt jedoch noch nichts über die Verschiedenheit der einzelnen Abweichungen aus</code>.</p>
+</blockquote>
+<h3 id="normalverteilung--standardnormalverteilung"><a class="header" href="#normalverteilung--standardnormalverteilung">Normalverteilung / Standardnormalverteilung</a></h3>
+<ul>
+<li>Bei der Normalverteilung liegen zwischen -1 und +1 vom Mittelwert 68.27% der Gesamtlfäche</li>
+<li>Zwischen +2 und -2 vom Mittelwert liegen 95.45% der Gesamtläche</li>
+<li>Bei einer Normalverteilung sind <code>Modalwert, Median und arithmetischer Mittelwert identisch</code></li>
+<li>Bei einer Standardnormalverteilung ist der arithemtische Mittelwert 0 und die Standardabweichung 1 </li>
+<li>Ermöglicht die Berechnung von <code>Konfidenzintervallen</code></li>
+</ul>
+<h3 id="z-wert"><a class="header" href="#z-wert">Z-Wert</a></h3>
+<ul>
+<li>Mithilfe des Z-Wertes kann bestummen werden, wo in der <code>Verteilung die Werte liegen</code></li>
+</ul>
+<h3 id="qq-plot"><a class="header" href="#qq-plot">QQ-Plot</a></h3>
+<ul>
+<li>Kann benutzt werden um eine <code>statistische Überprüfung der Normalverteilung</code> durchzuführen.</li>
+<li>Es werden <code>zwei Variablen</code> benötigt</li>
+<li>Bei einer Normalverteilung <code>liegen die Werte auf einer Linie</code></li>
+</ul>
+<h3 id="klassische-testtheorie-ktt"><a class="header" href="#klassische-testtheorie-ktt">Klassische Testtheorie (KTT)</a></h3>
+<p>Die klassische Testtheorie (KTT) besagt, <code>dass jede Messung sich aus einem wahren Wert und einem zufälligen Messfehler zusammensetzt</code>. Wichtig hierbei ist, dass die <code>Messfehler einzelner Items und Personen nicht korrelieren</code>, d.h:
+\[
+\rho(\epsilon_{vi},\epsilon_{vj}) = 0
+\]</p>
+<p>Der eigentliche <code>Messwert setzt sich aus dem wahren Wert und dem Messfehler zusammen</code>, d.h. \( Messwert = Wahrer Wert + Messfehler \)</p>
+<p>Hierbei gilt es aber folgendes zu beachten:</p>
+<ul>
+<li>Verteilung der Messwerte sollte schmal sein</li>
+<li>Einzelner Messwert zeigt zuverlässiger den wahren Testwert, wenn die  <code>Verteilung der Messwerte breit ist</code>, d.h. der <code>Standardmessfehler klein ist</code></li>
+</ul>
+<p>Kurz zusammengefasst bedeutet KTT dass:</p>
+<ul>
+<li>Eine Skala bildet die Summe von Messungen aus verschiedenen Items ab</li>
+<li>Jedes Item sollte das latente Konstrukt gleichermassen gut abbilden</li>
+<li>Für jedes Item <code>resultiert ein Messwert, der möglichst nah am wahren Wert liegen sollte</code></li>
+</ul>
+<h3 id="itemschwierigkeit"><a class="header" href="#itemschwierigkeit">Itemschwierigkeit</a></h3>
+<p>Drückt aus, wie <code>schwer eine Aufgabe für Personen zu beantworten war</code>, d.h. wie viele die richtige Lösung erhalten haben.</p>
+<h3 id="schiefe-v"><a class="header" href="#schiefe-v">Schiefe (v)</a></h3>
+<ul>
+<li>Bei symmetrischen Verteilungen ist die Schiefe = 0</li>
+<li>Linkssteil bedeutet <code>v &gt; 0</code></li>
+<li>Rechtssteil bedeutet <code>v &lt; 0</code></li>
+<li>Schiefe sollte bei Skalenitems nicht &gt; 1 oder &lt; - 1 sein</li>
+</ul>
+<h3 id="kurtosis"><a class="header" href="#kurtosis">Kurtosis</a></h3>
+<p>Sollte bei Skalenitems nicht über 8 liegen</p>
+<h3 id="reliabilität"><a class="header" href="#reliabilität">Reliabilität</a></h3>
+<ul>
+<li>Beschreibt die  <code>Zuverlässigkeit eines Tests</code></li>
+<li>Wertebreich von 0 bis 1 (1 = messfehlerfrei)</li>
+</ul>
+<h3 id="cronbachs-alpha"><a class="header" href="#cronbachs-alpha">Cronbachs alpha</a></h3>
+<ul>
+<li>Test wird in so viele Teile zerlegt wie er Items hat, d.h. <code>jedes Item wird als Testteil behandelt</code></li>
+<li>Anschliesend wird der <code>Durchschnittswert der Korrelationen aller möglichen Parre von Items berechnet</code></li>
+</ul>
+<h3 id="trennschärfe"><a class="header" href="#trennschärfe">Trennschärfe</a></h3>
+<p>Ermöglicht eine Einschätzung, <code>wie gut ein Item zwischen Personen mit niedrieger und hoher Merkmalsausprägung trennt</code></p>
+<ul>
+<li>Wert liegt zwischen -1 und 1</li>
+<li>Wenn die Trennschärfe = 0 ist, bedeutet das, dass <code>ein Item mit dem restlichen Test nichts gemeinsam hat</code></li>
+<li>Eine <code>negative Trennschärfe</code> bedeutet, dass ein <code>Item genau falsch herum verstanden wurde</code></li>
+<li>Wichtig: <code>Der Wert der Trennschärfe sollte den Wert des Cronbach alpha nicht übersteigen</code></li>
+<li>Je <code>niedriger die Varianz ist, desto höher die Trennschärfe</code></li>
+</ul>
+<h3 id="inferenzstatistik"><a class="header" href="#inferenzstatistik">Inferenzstatistik</a></h3>
+<p>Wird auch als <code>schliessende Statistik bezeichnet</code>, hierbei wird von der <code>Stichprobe auf die Grundgesamtheit</code> geschlossen:</p>
+<ul>
+<li>Mittelwert einer Stichprobe kann <code>berechnet werden</code></li>
+<li>Mittelwert einer Grundgesamtheit <code>muss geschätzt werden</code>, hierbei sind Fehler (Stichprobenfehler) möglich</li>
+</ul>
+<h2 id="geschichtete-zufallsstichprobe"><a class="header" href="#geschichtete-zufallsstichprobe">Geschichtete Zufallsstichprobe</a></h2>
+<p>Die Population wird in <code>verschiedene Gruppen aufgeteilt, nach einem für die Untersuchung relevanten Merkmal (bpsw. Kantone)</code>. Aus diesem Grund sind diese Art von Stichproben auch <code>spezifisch repräsentativ</code>.</p>
+<h2 id="klumpenstichprobe"><a class="header" href="#klumpenstichprobe">Klumpenstichprobe</a></h2>
+<p>Grundgesamtheit wird in Klumpen (Cluster) eingeteilt (bspw. Schulklasse). Anschliessend wird zufällig von diesen Klumpen ausgewählt. Klumpenstichproben <code>sind nur eingeschränkt repräsentativ</code>.</p>
+<h2 id="stichprobenkennwerteverteilung"><a class="header" href="#stichprobenkennwerteverteilung">Stichprobenkennwerteverteilung</a></h2>
+<p>Die Streuung aus der Kennwerteverteilung gilt als Mass dafür, wie gut <code>ein einzelner Stichprobenmittelwert den Populationsmittelwert schätzen kann</code>.</p>
+<ul>
+<li>Mit dem Stichprobenmittelwert <code>kann direkt auf den Mittelwert der Grundgesamtheit geschlossen werden</code> aber ist dabei nicht 100% genau wegen der Streuung</li>
+</ul>
+<h2 id="standardstichprobenfehler"><a class="header" href="#standardstichprobenfehler">Standardstichprobenfehler</a></h2>
+<p>Ist die <code>Standardabweichung der Stichprobenkennwerteverteilung</code>.</p>
+<h2 id="standardfehler"><a class="header" href="#standardfehler">Standardfehler</a></h2>
+<ul>
+<li>Je kleiner, desto kleiner die Varianz \( s^2 \) ist</li>
+<li>Je kleiner, desto <code>grösser die Stichprobe ist</code></li>
+</ul>
+<h2 id="signifikanztests"><a class="header" href="#signifikanztests">Signifikanztests</a></h2>
+<p>Bei einem Signifikanztest muss <code>immer eine Hypothese überprüft werden</code>, d.h. <code>kann die Hypothese mit einer genügend hohen Sicherheit verworfen werden</code>.</p>
+<h2 id="unterschiedshypothese"><a class="header" href="#unterschiedshypothese">Unterschiedshypothese</a></h2>
+<ul>
+<li>Behauptet Unterschiede zwischen Gruppen auf Mittelwerte oder Häufigkeiten</li>
+<li>Unterscheidung zwischen ungerichtet (behauptet nur dass ein Unterschied besteht) und zielgerichtet (behauptet dass eine Gruppe besser oder schlechter abschneidet als eine andere)</li>
+</ul>
+<h2 id="zusammenhangshypothese"><a class="header" href="#zusammenhangshypothese">Zusammenhangshypothese</a></h2>
+<ul>
+<li>Behauptet, dass ein Zusammenhang zwischen Variablen besteht</li>
+<li>Beispiel: &quot;Es besteht ein Zusammenhang zwischen den geleisteten Übungsstunden und dem Prüfungsergebnis&quot;</li>
+<li>Ungerichtet behauptet dass es einen Zusammenhang gibt, gerichtet wiederum ob dieser positiv oder negativ ist</li>
+</ul>
+<h2 id="hypothesenprüfung"><a class="header" href="#hypothesenprüfung">Hypothesenprüfung</a></h2>
+<p>Es werden die Hypothesen <code>H0 und H1</code> aufgestellt:</p>
+<ul>
+<li>H1 (Alternativhypothese) behauptet <code>dass es einen Zusammenhang / Unterschied gibt</code></li>
+<li>H0 (Nullhypothese) behauptet <code>dass es keinen Zusammenhang / Unterschied gibt</code></li>
+</ul>
+<p>Bei Hypothesenprüfungen ist <code>ein konservatives Vorgehgen zugunsten der H0 zu bevorzugen</code>.</p>
+<h2 id="alpha-fehler"><a class="header" href="#alpha-fehler">Alpha Fehler</a></h2>
+<blockquote>
+<p>Bedeutet, dass fälschlicherweise die H0 verworfen wurde, sprich wenn fälschlicherweise eine Alternativhypothese angenommen wird obwohl die Null Hypothese richtig wäre.</p>
+</blockquote>
+<h2 id="beta-fehler"><a class="header" href="#beta-fehler">Beta Fehler</a></h2>
+<blockquote>
+<p>Bedeutet, dass fälschlicherweise die H1 verworfen wurde</p>
+</blockquote>
+<ul>
+<li>Kann nur bei <code>spezifischen Hypothesen bestimmt werden, weil sonst die Verteilung der H1 nicht bestimmbar ist</code></li>
+</ul>
+<p><code>Wichtig: Alpha und Beta Fehler sind Gegensätze zueinander, sprich je höher die Wahrscheinlichkeit eines Alpha Fehlers, desto kleiner ist die Wahrscheinlichkeit eines Beta Fehlers</code></p>
+<h2 id="alpha-niveau"><a class="header" href="#alpha-niveau">Alpha Niveau</a></h2>
+<blockquote>
+<p>Legt fest, welche Wahrscheinlichkeit für einen Alpha Fehler noch akzeptabel ist und muss im Vorfeld definiert werden (üblicherweise 0.05 und 0.01, d.h. 5% und 1%).</p>
+</blockquote>
+<ul>
+<li>Bei gerichteten Hypothesen schneidet das Alpha Niveau nur die <code>linke oder rechte Seite</code></li>
+<li>Bei ungerichteten Hypothesen schneidet das Alpha Niveau <code>sowohl die link und die rechte Seite und muss deshalb halbiert werden auf jeder Seite</code></li>
+</ul>
+<h2 id="t-test"><a class="header" href="#t-test">t-Test</a></h2>
+<p>Untersucht bei <code>unabhängigen Stichproben</code>die <code>Gültigkeit von Unterschiedshypothesen</code>.
+Ein Beispiel hierzu ist die Einteilung in die Geschlechter männlich und weiblich. Hierbei ist das Geschlecht das Merkmal und die Ausprägungen davon wären männlich und weiblich</p>
+<h2 id="varianzanalyse"><a class="header" href="#varianzanalyse">Varianzanalyse</a></h2>
+<p>Man will herausfinden, <code>ob Gruppenmittelwerte hinsichtlich einer Kriteriumsvariable (abhängige Variable) signifikante Unterschiede aufweisen</code>:</p>
+<ul>
+<li>Vergleich zwischen der Varianz <code>zwischen den Gruppenmittelwerten und der Varianz innerhalb der Gruppen</code></li>
+</ul>
+<h2 id="f-test"><a class="header" href="#f-test">F-Test</a></h2>
+<p>Überprüft <code>ob ein signifikanter Effekt der Gruppenzugehörigkeit besteht</code>, d.h. ob die Zwischengruppenvarianz im Vergleich zur Innergruppenvarianz signifikant gross ist:</p>
+<ul>
+<li>F-Wert von 1 beduetet dass es <code>keinen Effekt gibt</code> (F-Wert kann in F-Tabelle nachgeschlagen werden)</li>
+<li>Wenn F-Wert &gt; 1 bedeutet dass, dass es <code>signifikante Gruppenutnerschiede</code> gibt</li>
+</ul>
+<h2 id="erklärte-varianz"><a class="header" href="#erklärte-varianz">Erklärte Varianz</a></h2>
+<p>\(  \eta^2 \) gibt an welcher <code>Anteil der Gesamtvarianz durch die Gruppenzugehörigkeit erklärt werden kann</code>.</p>
+<h2 id="tukey-test"><a class="header" href="#tukey-test">Tukey-Test</a></h2>
+<p>Wird verwendet um herauszufinden <code>welche Gruppen sich voneinander unterscheiden</code>.</p>
+<h2 id="signifikanzniveau"><a class="header" href="#signifikanzniveau">Signifikanzniveau</a></h2>
+<p>Ist die Irrtumswahrscheinlichkeit im Fall, dass man einen Unterschied zwischen den Kategorien hinsichtlich des Kriteriums annimmt</p>
+<h2 id="korrelation"><a class="header" href="#korrelation">Korrelation</a></h2>
+<p>Korrelation beschreibt die Beziehung die zwischen zwei Variablen besteht</p>
+<h2 id="pearsonsche-produkt-moment-korrelationskoeffizient"><a class="header" href="#pearsonsche-produkt-moment-korrelationskoeffizient">Pearsonsche Produkt-Moment-Korrelationskoeffizient</a></h2>
+<p>Masszahl für Zusammenhänge:</p>
+<ul>
+<li>Wertebereich liegt zwischen -1 und 1</li>
+<li>Am einfachsten über das Bestimmtheitsmass \( r^2\) zu interpretieren</li>
+<li>Wenn \( r^2 = 0.48 \) für Körpergewicht und Körpergrösse, dann bedeutet dass, das 48% der Varianz des Körpergewichtes durch die Körperlänge bestimmt wird</li>
+</ul>
+<h2 id="relative-position"><a class="header" href="#relative-position">Relative Position</a></h2>
+<ul>
+<li>Gross und positiv bedeutet <code>starker direkter Zusammenhang</code></li>
+<li>Gross und negativ bedeutet <code>starker negativer Zusammenhang</code></li>
+<li>0 wenn keine Beziehung besteht</li>
+</ul>
+<h2 id="kovarianz"><a class="header" href="#kovarianz">Kovarianz</a></h2>
+<p>Ist abhängig vom <code>Masstab der zugrunde liegenden Variablen</code> Sie ist daher bei <code>sozialwissenschaftlichen Anwendungen</code> bei denen <code>es nicht um festgelegt Masseinheiten wie Gewichts- und Längeneinheiten geht, weniger geeignet</code>.</p>
+<h2 id="regresionsanalyse"><a class="header" href="#regresionsanalyse">Regresionsanalyse</a></h2>
+<p>Mithilfe der Regressionsanalyse kann beschrieben werden, <code>welchen Einfluss unabhängige Variablen auf abhängige Variablen ausüben</code>. Zudem kann beschrieben werden, was mit der Variable passiert wenn die andere verändert wird.</p>
+<ul>
+<li>Mit der Regressionanalyse werden <code>gleichzeitig mehrere unabhängige Variablen untersucht</code></li>
+<li>Wir sind jedoch nur an einer bestimmten interessiert, die anderen Variablen <code>müssen deshalb über Kontrollvariablen &quot;kontrolliert&quot; werden</code>.</li>
+</ul>
+<h2 id="kleinste-quadrate"><a class="header" href="#kleinste-quadrate">Kleinste Quadrate</a></h2>
+<p>Ziel des Kleinsten-Quadrate-Verfahrens ist es die <code>Summe des Abstandes zwischen beobachteten Werten und den geschätzten Werten zu minimieren</code>.</p>
+<h2 id="prädiktorvariable"><a class="header" href="#prädiktorvariable">Prädiktorvariable</a></h2>
+<p>Wird auch als <code>unabhängige Variable</code> bezeichnet.</p>
+<h2 id="standardisierte-regressionskoeffizienten"><a class="header" href="#standardisierte-regressionskoeffizienten">Standardisierte Regressionskoeffizienten</a></h2>
+<p>Die b-Gewichte lassen <code>wegen der unterschiedlichen Messskalen der Prädikatoren keine Aussage darüber zu, welche Prädikatoren die höchste Vorhersagekraft haben</code>. Hierzu muss mit <code>standardisierten Z-Werten gerechnet werden</code>.</p>
+<h2 id="multipler-korrelationskoeffizient--r2-"><a class="header" href="#multipler-korrelationskoeffizient--r2-">Multipler Korrelationskoeffizient \( R^2 \)</a></h2>
+<p>Ist ein Mass das aussagt, wie gut eine Gerade zu einer Punktewolke passt, bzw. welchen Erklärungsgehalt die Regressionsgerade hat.</p>
+<h2 id="effektgrösse"><a class="header" href="#effektgrösse">Effektgrösse</a></h2>
+<p>Die Effektgrösse wird <code>zur Beurteilung einer optimalen Stichprobengrösse angewendet</code>:</p>
+<ul>
+<li>Wird grösser mit zunehmender Mittelwertsdifferenz und auch mit abnehmender Streuung</li>
+</ul>
+<h2 id="chi-quadrat-test"><a class="header" href="#chi-quadrat-test">Chi-Quadrat Test</a></h2>
+<p>Kann für <code>nominalskalierte Variablen</code> eingesetzt werden um eine <code>Zusammenhangshypothese</code> zu überprüfen:</p>
+<ul>
+<li>Man möchte zum Beispiel herausfinden ob Mitglieder von zwei Gruppen sich hinsichtlich ihrer Präferenzen für ein Produkt unterscheiden (mit Ja oder Nein Antwortmöglichkeiten)</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="data_management_possible_exercises.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="quantitative_methods_faq.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="data_management_possible_exercises.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="quantitative_methods_faq.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>
